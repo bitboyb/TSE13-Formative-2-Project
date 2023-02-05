@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	303499673	Play_TwoHandedAxe_Unsheath			\Default Work Unit\Play_TwoHandedAxe_Unsheath	
 	595748461	Play_DoubleJump			\Default Work Unit\Play_DoubleJump	
 	648635755	Play_Sword_Sheath			\Default Work Unit\Play_Sword_Sheath	
+	1097980931	TESTEVENT			\Default Work Unit\TESTEVENT	
 	1134264338	Play_TwoHandedAxe_RunAttack			\Default Work Unit\Play_TwoHandedAxe_RunAttack	
 	1172822028	Play_Death			\Default Work Unit\Play_Death	
 	1206382856	Play_TwoHandedSword_Attack2			\Default Work Unit\Play_TwoHandedSword_Attack2	
