@@ -1,0 +1,24 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "134",
+  "RootPaths": {
+   "ProjectRoot": "D:\\tse-games\\RPG_Character_MecAnim_Wwise\\RPG_Character_MecAnim_v1.0\\RPG_Character_MecAnim_v1.0_WwiseProject\\",
+   "SourceFilesRoot": "D:\\tse-games\\RPG_Character_MecAnim_Wwise\\RPG_Character_MecAnim_v1.0\\RPG_Character_MecAnim_v1.0_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\tse-games\\RPG_Character_MecAnim_Wwise\\RPG_Character_MecAnim_v1.0\\RPG_Character_MecAnim_v1.0_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\tse-games\\RPG_Character_MecAnim_Wwise\\RPG_Character_MecAnim_v1.0\\RPG_Character_MecAnim_v1.0_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

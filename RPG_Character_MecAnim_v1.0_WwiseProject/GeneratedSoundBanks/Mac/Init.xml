@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

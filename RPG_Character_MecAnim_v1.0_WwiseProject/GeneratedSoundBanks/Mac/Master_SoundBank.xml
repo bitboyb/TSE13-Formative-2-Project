@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2469504869" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_SoundBank</ObjectPath>
+			<ShortName>Master_SoundBank</ShortName>
+			<Path>Master_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="285561943" Name="Play_Ambience_Birds" ObjectPath="\Events\Default Work Unit\Play_Ambience_Birds" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death" DurationType="OneShot" DurationMin="2.559048" DurationMax="2.559048"/>
+				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Default Work Unit\Play_DoubleJump" DurationType="OneShot" DurationMin="0.859637" DurationMax="0.859637"/>
+				<Event Id="2128275847" Name="Play_FootstepLeft" ObjectPath="\Events\Default Work Unit\Play_FootstepLeft" DurationType="OneShot" DurationMin="0.122547" DurationMax="0.122547"/>
+				<Event Id="3578792042" Name="Play_FootstepRight" ObjectPath="\Events\Default Work Unit\Play_FootstepRight" DurationType="OneShot" DurationMin="0.122436" DurationMax="0.122436"/>
+				<Event Id="2822901905" Name="Play_GetHit" ObjectPath="\Events\Default Work Unit\Play_GetHit" DurationType="OneShot" DurationMin="0.859637" DurationMax="0.859637"/>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" DurationType="OneShot" DurationMin="0.859637" DurationMax="0.859637"/>
+				<Event Id="4285282925" Name="Play_Land" ObjectPath="\Events\Default Work Unit\Play_Land" DurationType="OneShot" DurationMin="0.187904" DurationMax="0.187904"/>
+				<Event Id="3055149681" Name="Play_Revive" ObjectPath="\Events\Default Work Unit\Play_Revive" DurationType="OneShot" DurationMin="0.859637" DurationMax="0.859637"/>
+				<Event Id="2719919427" Name="Play_Roll" ObjectPath="\Events\Default Work Unit\Play_Roll" DurationType="OneShot" DurationMin="2.241924" DurationMax="2.241924"/>
+				<Event Id="1584859361" Name="Play_Sword_Attack1" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack1" DurationType="OneShot" DurationMin="0.712703" DurationMax="0.712703"/>
+				<Event Id="1584859362" Name="Play_Sword_Attack2" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack2" DurationType="OneShot" DurationMin="0.624038" DurationMax="0.624038"/>
+				<Event Id="1410769155" Name="Play_Sword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_RunAttack" DurationType="OneShot" DurationMin="0.624038" DurationMax="0.624038"/>
+				<Event Id="648635755" Name="Play_Sword_Sheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Sheath" DurationType="OneShot" DurationMin="0.587552" DurationMax="0.587552"/>
+				<Event Id="84470053" Name="Play_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_SpecialAttack" DurationType="Infinite"/>
+				<Event Id="2036163030" Name="Play_Sword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Unsheath" DurationType="OneShot" DurationMin="0.647553" DurationMax="0.647553"/>
+				<Event Id="2010515388" Name="Play_TwoHandedAxe_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Attack1" DurationType="OneShot" DurationMin="0.712703" DurationMax="0.712703"/>
+				<Event Id="1134264338" Name="Play_TwoHandedAxe_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_RunAttack" DurationType="OneShot" DurationMin="0.624038" DurationMax="0.624038"/>
+				<Event Id="1958446052" Name="Play_TwoHandedAxe_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Sheath" DurationType="OneShot" DurationMin="0.587552" DurationMax="0.587552"/>
+				<Event Id="3221502996" Name="Play_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_SpecialAttack" DurationType="Infinite"/>
+				<Event Id="303499673" Name="Play_TwoHandedAxe_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Unsheath" DurationType="OneShot" DurationMin="0.647553" DurationMax="0.647553"/>
+				<Event Id="1206382859" Name="Play_TwoHandedSword_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack1" DurationType="OneShot" DurationMin="0.940417" DurationMax="0.940417"/>
+				<Event Id="1206382856" Name="Play_TwoHandedSword_Attack2" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack2" DurationType="OneShot" DurationMin="1.219570" DurationMax="1.219570"/>
+				<Event Id="2511424613" Name="Play_TwoHandedSword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_RunAttack" DurationType="OneShot" DurationMin="1.540417" DurationMax="1.540417"/>
+				<Event Id="3306336597" Name="Play_TwoHandedSword_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Sheath" DurationType="OneShot" DurationMin="1.833315" DurationMax="1.833315"/>
+				<Event Id="3612828199" Name="Play_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_SpecialAttack" DurationType="Infinite"/>
+				<Event Id="1826018124" Name="Play_TwoHandedSword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Unsheath" DurationType="OneShot" DurationMin="1.779416" DurationMax="1.779416"/>
+				<Event Id="194921656" Name="Play_UnarmedAttack" ObjectPath="\Events\Default Work Unit\Play_UnarmedAttack" DurationType="OneShot" DurationMin="0.624038" DurationMax="0.624038"/>
+				<Event Id="157213476" Name="Play_WeaponImpact" ObjectPath="\Events\Default Work Unit\Play_WeaponImpact" DurationType="OneShot" DurationMin="0.186160" DurationMax="0.186160"/>
+				<Event Id="2732819635" Name="Stop_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_Sword_SpecialAttack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2020420858" Name="Stop_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedAxe_SpecialAttack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1771533845" Name="Stop_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedSword_SpecialAttack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="175139634" Language="SFX">
+					<ShortName>044177056-knight-armor-05.wav</ShortName>
+					<Path>SFX\044177056-knight-armor-05_496BFC7C.wem</Path>
+				</File>
+				<File Id="279970728" Language="SFX">
+					<ShortName>knight-footstep2.wav</ShortName>
+					<Path>SFX\knight-footstep2_9E3E3CC5.wem</Path>
+				</File>
+				<File Id="404846051" Language="SFX">
+					<ShortName>044177056-knight-armor-05.wav</ShortName>
+					<Path>SFX\044177056-knight-armor-05_10C4C929.wem</Path>
+				</File>
+				<File Id="442047717" Language="SFX">
+					<ShortName>sword-whoosh.wav</ShortName>
+					<Path>SFX\sword-whoosh_10C4C929.wem</Path>
+				</File>
+				<File Id="528894382" Language="SFX">
+					<ShortName>knight-armor-02 (5).wav</ShortName>
+					<Path>SFX\knight-armor-02 (5)_10C4C929.wem</Path>
+				</File>
+				<File Id="576393850" Language="SFX">
+					<ShortName>knight-grunt-03 (7).wav</ShortName>
+					<Path>SFX\knight-grunt-03 (7)_10C4C929.wem</Path>
+				</File>
+				<File Id="658366472" Language="SFX">
+					<ShortName>sword-whoosh.wav</ShortName>
+					<Path>SFX\sword-whoosh_87051CCD.wem</Path>
+				</File>
+				<File Id="763002540" Language="SFX">
+					<ShortName>knight-death-01.wav</ShortName>
+					<Path>SFX\knight-death-01_10C4C929.wem</Path>
+				</File>
+				<File Id="851577602" Language="SFX">
+					<ShortName>AG_Ambience_Birdsong_Loop_1.wav</ShortName>
+					<Path>SFX\AG_Ambience_Birdsong_Loop_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="855800592" Language="SFX">
+					<ShortName>knight-grunt-01 (6).wav</ShortName>
+					<Path>SFX\knight-grunt-01 (6)_10C4C929.wem</Path>
+				</File>
+				<File Id="974704099" Language="SFX">
+					<ShortName>knight-grunt-02 (9).wav</ShortName>
+					<Path>SFX\knight-grunt-02 (9)_10C4C929.wem</Path>
+				</File>
+				<File Id="1043529090" Language="SFX">
+					<ShortName>knight-footstep1.wav</ShortName>
+					<Path>SFX\knight-footstep1_2A1A1F65.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

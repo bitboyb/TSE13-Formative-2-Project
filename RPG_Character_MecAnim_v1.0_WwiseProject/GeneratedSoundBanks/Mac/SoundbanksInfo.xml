@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>G:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>G:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>G:\tse-games\RPG_Character_MecAnim_Wwise\RPG_Character_MecAnim_v1.0\RPG_Character_MecAnim_v1.0_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2469504869" GUID="{B06D53DF-1493-49E8-9400-FB2DF721C16A}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_SoundBank</ObjectPath>
+			<ShortName>Master_SoundBank</ShortName>
+			<Path>Master_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death" GUID="{E3917006-1407-4237-9038-C64FB0266975}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Default Work Unit\Play_DoubleJump" GUID="{39F80A75-D96C-4AB2-98AA-F0E2417E37F7}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2128275847" Name="Play_FootstepLeft" ObjectPath="\Events\Default Work Unit\Play_FootstepLeft" GUID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3578792042" Name="Play_FootstepRight" ObjectPath="\Events\Default Work Unit\Play_FootstepRight" GUID="{E4668642-DF5C-4745-9968-B7153D1C54BB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2822901905" Name="Play_GetHit" ObjectPath="\Events\Default Work Unit\Play_GetHit" GUID="{CC6468C0-5FCE-405A-AC44-A66DDD737693}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" GUID="{2938F4EB-32F1-434D-818C-E7860D17A7C9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4285282925" Name="Play_Land" ObjectPath="\Events\Default Work Unit\Play_Land" GUID="{C75C9984-4AAE-455D-A265-F4D9786D481C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3055149681" Name="Play_Revive" ObjectPath="\Events\Default Work Unit\Play_Revive" GUID="{CEC1C326-7CFB-4A83-B5C9-48A787C901C9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2719919427" Name="Play_Roll" ObjectPath="\Events\Default Work Unit\Play_Roll" GUID="{16382481-96F0-4610-9C7C-7D979E439E53}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1584859361" Name="Play_Sword_Attack1" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack1" GUID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1584859362" Name="Play_Sword_Attack2" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack2" GUID="{DFCDDAAF-2F40-48ED-B366-F8E0CA37565F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1410769155" Name="Play_Sword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_RunAttack" GUID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="648635755" Name="Play_Sword_Sheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Sheath" GUID="{6017AECB-1CA6-41DA-B278-5A0249AE8BBD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="84470053" Name="Play_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_SpecialAttack" GUID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2036163030" Name="Play_Sword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Unsheath" GUID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2010515388" Name="Play_TwoHandedAxe_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Attack1" GUID="{540A50BD-F11D-420A-820C-108E6D88795E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1134264338" Name="Play_TwoHandedAxe_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_RunAttack" GUID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1958446052" Name="Play_TwoHandedAxe_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Sheath" GUID="{DFB84044-DAE5-4046-A56A-713F3ADF2A35}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3221502996" Name="Play_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_SpecialAttack" GUID="{640C153B-09F9-4C48-BB8C-C258A406A00C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="303499673" Name="Play_TwoHandedAxe_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Unsheath" GUID="{70D25C8E-74DC-4883-911D-D0C80A733B99}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1206382859" Name="Play_TwoHandedSword_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack1" GUID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1206382856" Name="Play_TwoHandedSword_Attack2" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack2" GUID="{F1E19395-870B-40ED-9303-0392E5F750AE}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2511424613" Name="Play_TwoHandedSword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_RunAttack" GUID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3306336597" Name="Play_TwoHandedSword_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Sheath" GUID="{9CF382EF-A489-4FD6-BAA1-0AEA00F66D01}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3612828199" Name="Play_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_SpecialAttack" GUID="{D85BA391-608A-4998-A814-7AC74879849D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1826018124" Name="Play_TwoHandedSword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Unsheath" GUID="{AB172011-090C-4424-B7F2-5E94B575746F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="194921656" Name="Play_UnarmedAttack" ObjectPath="\Events\Default Work Unit\Play_UnarmedAttack" GUID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="157213476" Name="Play_WeaponImpact" ObjectPath="\Events\Default Work Unit\Play_WeaponImpact" GUID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2732819635" Name="Stop_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_Sword_SpecialAttack" GUID="{0A219350-8CB7-45C8-B7A6-27D098BCB6AD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2020420858" Name="Stop_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedAxe_SpecialAttack" GUID="{14BDA114-AB80-48D5-A6B2-1FE879D9A3F2}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1771533845" Name="Stop_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedSword_SpecialAttack" GUID="{E4FB0737-1553-4F4F-B4E5-FE6E1282F4A4}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

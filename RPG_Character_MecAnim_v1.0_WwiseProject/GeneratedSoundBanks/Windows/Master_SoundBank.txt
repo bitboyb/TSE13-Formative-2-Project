@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	84470053	Play_Sword_SpecialAttack			\Default Work Unit\Play_Sword_SpecialAttack	
+	157213476	Play_WeaponImpact			\Default Work Unit\Play_WeaponImpact	
+	194921656	Play_UnarmedAttack			\Default Work Unit\Play_UnarmedAttack	
+	303499673	Play_TwoHandedAxe_Unsheath			\Default Work Unit\Play_TwoHandedAxe_Unsheath	
+	595748461	Play_DoubleJump			\Default Work Unit\Play_DoubleJump	
+	648635755	Play_Sword_Sheath			\Default Work Unit\Play_Sword_Sheath	
+	1134264338	Play_TwoHandedAxe_RunAttack			\Default Work Unit\Play_TwoHandedAxe_RunAttack	
+	1172822028	Play_Death			\Default Work Unit\Play_Death	
+	1206382856	Play_TwoHandedSword_Attack2			\Default Work Unit\Play_TwoHandedSword_Attack2	
+	1206382859	Play_TwoHandedSword_Attack1			\Default Work Unit\Play_TwoHandedSword_Attack1	
+	1410769155	Play_Sword_RunAttack			\Default Work Unit\Play_Sword_RunAttack	
+	1584859361	Play_Sword_Attack1			\Default Work Unit\Play_Sword_Attack1	
+	1584859362	Play_Sword_Attack2			\Default Work Unit\Play_Sword_Attack2	
+	1771533845	Stop_TwoHandedSword_SpecialAttack			\Default Work Unit\Stop_TwoHandedSword_SpecialAttack	
+	1826018124	Play_TwoHandedSword_Unsheath			\Default Work Unit\Play_TwoHandedSword_Unsheath	
+	1958446052	Play_TwoHandedAxe_Sheath			\Default Work Unit\Play_TwoHandedAxe_Sheath	
+	2010515388	Play_TwoHandedAxe_Attack1			\Default Work Unit\Play_TwoHandedAxe_Attack1	
+	2020420858	Stop_TwoHandedAxe_SpecialAttack			\Default Work Unit\Stop_TwoHandedAxe_SpecialAttack	
+	2036163030	Play_Sword_Unsheath			\Default Work Unit\Play_Sword_Unsheath	
+	2128275847	Play_FootstepLeft			\Default Work Unit\Play_FootstepLeft	
+	2511424613	Play_TwoHandedSword_RunAttack			\Default Work Unit\Play_TwoHandedSword_RunAttack	
+	2719919427	Play_Roll			\Default Work Unit\Play_Roll	
+	2732819635	Stop_Sword_SpecialAttack			\Default Work Unit\Stop_Sword_SpecialAttack	
+	2822901905	Play_GetHit			\Default Work Unit\Play_GetHit	
+	3055149681	Play_Revive			\Default Work Unit\Play_Revive	
+	3221502996	Play_TwoHandedAxe_SpecialAttack			\Default Work Unit\Play_TwoHandedAxe_SpecialAttack	
+	3306336597	Play_TwoHandedSword_Sheath			\Default Work Unit\Play_TwoHandedSword_Sheath	
+	3578792042	Play_FootstepRight			\Default Work Unit\Play_FootstepRight	
+	3612828199	Play_TwoHandedSword_SpecialAttack			\Default Work Unit\Play_TwoHandedSword_SpecialAttack	
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+	4285282925	Play_Land			\Default Work Unit\Play_Land	
+
