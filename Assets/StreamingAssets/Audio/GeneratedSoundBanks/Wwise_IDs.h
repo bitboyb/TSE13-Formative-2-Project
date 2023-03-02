@@ -44,8 +44,61 @@ namespace AK
         static const AkUniqueID STOP_SWORD_SPECIALATTACK = 2732819635U;
         static const AkUniqueID STOP_TWOHANDEDAXE_SPECIALATTACK = 2020420858U;
         static const AkUniqueID STOP_TWOHANDEDSWORD_SPECIALATTACK = 1771533845U;
-        static const AkUniqueID TESTEVENT = 1097980931U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace IMPACT_MATERIAL
+        {
+            static const AkUniqueID GROUP = 1559186049U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace IMPACT_MATERIAL
+
+        namespace PLAYER_ATTACKTYPE
+        {
+            static const AkUniqueID GROUP = 77912705U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID RUNNING = 3863236874U;
+                static const AkUniqueID SPECIAL = 3064974266U;
+            } // namespace SWITCH
+        } // namespace PLAYER_ATTACKTYPE
+
+        namespace PLAYER_MOVEMENT
+        {
+            static const AkUniqueID GROUP = 541470702U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DOUBLEJUMP = 1308315758U;
+                static const AkUniqueID JUMP = 3833651337U;
+                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID ROLL = 2026920480U;
+                static const AkUniqueID RUNNING = 3863236874U;
+            } // namespace SWITCH
+        } // namespace PLAYER_MOVEMENT
+
+        namespace PLAYER_WEAPON
+        {
+            static const AkUniqueID GROUP = 1625387345U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SWORD = 2454616260U;
+                static const AkUniqueID TWOHANDAXE = 2556362570U;
+                static const AkUniqueID TWOHANDSWORD = 3456977529U;
+                static const AkUniqueID UNARMED = 1123359481U;
+            } // namespace SWITCH
+        } // namespace PLAYER_WEAPON
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

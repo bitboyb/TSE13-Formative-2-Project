@@ -5,7 +5,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	303499673	Play_TwoHandedAxe_Unsheath			\Default Work Unit\Play_TwoHandedAxe_Unsheath	
 	595748461	Play_DoubleJump			\Default Work Unit\Play_DoubleJump	
 	648635755	Play_Sword_Sheath			\Default Work Unit\Play_Sword_Sheath	
-	1097980931	TESTEVENT			\Default Work Unit\TESTEVENT	
 	1134264338	Play_TwoHandedAxe_RunAttack			\Default Work Unit\Play_TwoHandedAxe_RunAttack	
 	1172822028	Play_Death			\Default Work Unit\Play_Death	
 	1206382856	Play_TwoHandedSword_Attack2			\Default Work Unit\Play_TwoHandedSword_Attack2	
@@ -31,4 +30,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	3612828199	Play_TwoHandedSword_SpecialAttack			\Default Work Unit\Play_TwoHandedSword_SpecialAttack	
 	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
 	4285282925	Play_Land			\Default Work Unit\Play_Land	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	77912705	Player_AttackType			\Default Work Unit\Player_AttackType	
+	541470702	Player_Movement			\Default Work Unit\Player_Movement	
+	1559186049	Impact_Material			\Default Work Unit\Impact_Material	
+	1625387345	Player_Weapon			\Default Work Unit\Player_Weapon	
+
+Switch	ID	Name	Switch Group			Notes
+	1160234136	Normal	Player_AttackType			
+	3064974266	Special	Player_AttackType			
+	3863236874	Running	Player_AttackType			
+	1160234136	Normal	Player_Movement			
+	1308315758	DoubleJump	Player_Movement			
+	2026920480	Roll	Player_Movement			
+	3833651337	Jump	Player_Movement			
+	3863236874	Running	Player_Movement			
+	1216965916	Stone	Impact_Material			
+	2058049674	Wood	Impact_Material			
+	1123359481	Unarmed	Player_Weapon			
+	2454616260	Sword	Player_Weapon			
+	2556362570	TwoHandAxe	Player_Weapon			
+	3456977529	TwoHandSword	Player_Weapon			
 

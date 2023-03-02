@@ -3,37 +3,985 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}"/>
-				<Event Name="Play_FootstepRight" ID="{E4668642-DF5C-4745-9968-B7153D1C54BB}"/>
-				<Event Name="Play_TwoHandedSword_Attack1" ID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}"/>
-				<Event Name="Play_TwoHandedSword_Attack2" ID="{F1E19395-870B-40ED-9303-0392E5F750AE}"/>
-				<Event Name="Play_Jump" ID="{2938F4EB-32F1-434D-818C-E7860D17A7C9}"/>
-				<Event Name="Play_Land" ID="{C75C9984-4AAE-455D-A265-F4D9786D481C}"/>
-				<Event Name="Play_TwoHandedSword_Unsheath" ID="{AB172011-090C-4424-B7F2-5E94B575746F}"/>
-				<Event Name="Play_TwoHandedSword_Sheath" ID="{9CF382EF-A489-4FD6-BAA1-0AEA00F66D01}"/>
-				<Event Name="Play_Sword_Attack1" ID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}"/>
-				<Event Name="Play_Sword_Attack2" ID="{DFCDDAAF-2F40-48ED-B366-F8E0CA37565F}"/>
-				<Event Name="Play_Sword_SpecialAttack" ID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}"/>
-				<Event Name="Play_Sword_Sheath" ID="{6017AECB-1CA6-41DA-B278-5A0249AE8BBD}"/>
-				<Event Name="Play_Sword_Unsheath" ID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}"/>
+				<Event Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}">
+					<ChildrenList>
+						<Action Name="" ID="{25E045D0-2BDB-40EC-99A9-0550C1833B20}" ShortID="233323265">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E01E882-0C81-42FF-9AA2-3DF6424BD5E6}" ShortID="291366512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9D768B85-B9F9-438D-93C6-76634834CDD0}" ShortID="848051008">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Footsteps" ID="{D0AC1C77-899C-4614-A716-560AD14755BF}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6F730A0-7E61-44CD-9269-18D06930D8C3}" ShortID="553966819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FootstepRight" ID="{E4668642-DF5C-4745-9968-B7153D1C54BB}">
+					<ChildrenList>
+						<Action Name="" ID="{0EAFDD63-9FA0-4625-AE00-CA44C32F3266}" ShortID="1002057580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F665A84-8D59-45B0-A1CD-AE0A17EDDCDA}" ShortID="967618034">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D64241FE-B96A-4997-9AD0-D9648C2DCCF9}" ShortID="745617745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Footsteps" ID="{D0AC1C77-899C-4614-A716-560AD14755BF}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EC124D80-CAA4-4427-B756-5D68D624C07E}" ShortID="812934978">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_Attack1" ID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}">
+					<ChildrenList>
+						<Action Name="" ID="{A168B2D1-22F6-4EB4-B837-B6D11BB559F3}" ShortID="889786499">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E1607A1-A87E-4B43-9614-874A7EDB1BCA}" ShortID="20346223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75204228-B6A6-43BA-8AB7-DFDFA77C4EEE}" ShortID="91059763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05743E55-37C3-4AD2-BBF6-F3B41ED89115}" ShortID="123565587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{71D511F4-6861-4A2E-B548-AC112D364893}" ShortID="322093240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_Attack2" ID="{F1E19395-870B-40ED-9303-0392E5F750AE}">
+					<ChildrenList>
+						<Action Name="" ID="{58021D2B-3589-4B01-9B65-320315C0A08F}" ShortID="612025789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7A42CD7E-50B3-4DFA-B7F2-122BF4630C41}" ShortID="863118287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1313456-869B-48E9-8247-2FC7B230B69C}" ShortID="942642665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F73A4E92-DF9B-4E5A-A97B-B22A468C253C}" ShortID="643529783">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BEA4F7E5-C870-439F-BACE-962BECEA6BB4}" ShortID="162769990">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{2938F4EB-32F1-434D-818C-E7860D17A7C9}">
+					<ChildrenList>
+						<Action Name="" ID="{1781584D-F268-408D-AE53-4802C2169443}" ShortID="1023727553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{BC684111-0B68-45F4-88C5-D3BDBEA8C420}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7E41ED87-EF41-4990-B46B-008F6BC8032B}" ShortID="208193027">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2831E636-F851-46BD-BB86-1B83530B1AE9}" ShortID="111536880">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Footsteps" ID="{D0AC1C77-899C-4614-A716-560AD14755BF}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{493D9548-6922-4A8B-877A-D87C9CFF2480}" ShortID="509254050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Land" ID="{C75C9984-4AAE-455D-A265-F4D9786D481C}">
+					<ChildrenList>
+						<Action Name="" ID="{EC15B74A-8A96-4570-A274-BE2D87897E16}" ShortID="667630087">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46CBDC0E-EF3C-480B-86EC-E395527C44D9}" ShortID="326785630">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A4A60702-17F1-4353-9807-1284B9D5D086}" ShortID="350241031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Footsteps" ID="{D0AC1C77-899C-4614-A716-560AD14755BF}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_Unsheath" ID="{AB172011-090C-4424-B7F2-5E94B575746F}">
+					<ChildrenList>
+						<Action Name="" ID="{E2D3D70A-D7AC-4B35-AE66-FD0AF67534AE}" ShortID="952689156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5137069C-B9AA-4A73-8A94-BCCD6D4788F4}" ShortID="462219151">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnUnsheath" ID="{B78784E5-8D6C-416F-954B-DB90BBCB30AB}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_Sheath" ID="{9CF382EF-A489-4FD6-BAA1-0AEA00F66D01}">
+					<ChildrenList>
+						<Action Name="" ID="{658D188C-FD95-4A5F-BBEA-E7A12D7AA2E3}" ShortID="176655837">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{541354CF-0D45-4889-AE57-D5D31A46FFB2}" ShortID="819318144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnSheath" ID="{8E60FD6F-8A3D-4BEC-AE21-083B2CF2AAC2}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Attack1" ID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}">
+					<ChildrenList>
+						<Action Name="" ID="{7AC825AA-2F29-4D52-A065-DB0B79B2E85F}" ShortID="1037275435">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58650141-A7B3-460F-AE60-342E84CAEFD7}" ShortID="416460571">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{256DE5AA-9C09-4B0F-ADE5-0805A2DC9CAA}" ShortID="333630213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6C47681C-7C07-4ABC-968C-6A2C024FB835}" ShortID="93034456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FF625BA5-78ED-4902-A370-851FBD2350A5}" ShortID="429619127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Attack2" ID="{DFCDDAAF-2F40-48ED-B366-F8E0CA37565F}">
+					<ChildrenList>
+						<Action Name="" ID="{30F3B242-DC14-4C1A-BCC4-4CF0F6B84A81}" ShortID="700162639">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ACE3F62E-9391-4981-93F6-DC0FDDACBBD6}" ShortID="505986313">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B77D0791-C50A-40A7-A60D-A9ACD97C24A5}" ShortID="861080796">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02D83EE4-8027-4153-A6DD-1DD3EC7A8BB7}" ShortID="643560050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FECBD176-402C-485F-B4F1-C9632A7BE690}" ShortID="563643144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_SpecialAttack" ID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}">
+					<ChildrenList>
+						<Action Name="" ID="{F31AE10E-B362-49F8-A6E9-DFF33330D767}" ShortID="928422582">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DBDAD429-46F1-4A1C-9BDD-FAC81123473A}" ShortID="439051933">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special" ID="{4C03C013-B372-49F2-9D9B-3E410FE77A95}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F24E9D4-97D7-4375-A652-BEA956B495BE}" ShortID="1060226306">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7268ED05-E6C7-4BAD-86CE-66078B6B07D7}" ShortID="968520438">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDF7ED79-D891-4192-9A90-55FB3EB15735}" ShortID="90474638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Sheath" ID="{6017AECB-1CA6-41DA-B278-5A0249AE8BBD}">
+					<ChildrenList>
+						<Action Name="" ID="{F62A1252-7BC0-438E-8573-9BE479DD20CE}" ShortID="81087818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F5E869A-F2CB-4760-8E5A-44566E68CF47}" ShortID="518358493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnSheath" ID="{8E60FD6F-8A3D-4BEC-AE21-083B2CF2AAC2}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Unsheath" ID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}">
+					<ChildrenList>
+						<Action Name="" ID="{FBED4DDF-9D10-409F-92CA-A13C69CEF4FB}" ShortID="450993040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2CDE7F16-E825-4B4A-B6E4-CFC7A9DAAEE1}" ShortID="306364301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnUnsheath" ID="{B78784E5-8D6C-416F-954B-DB90BBCB30AB}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Stop_Sword_SpecialAttack" ID="{0A219350-8CB7-45C8-B7A6-27D098BCB6AD}"/>
-				<Event Name="Stop_TwoHandedSword_SpecialAttack" ID="{E4FB0737-1553-4F4F-B4E5-FE6E1282F4A4}"/>
-				<Event Name="Play_TwoHandedSword_SpecialAttack" ID="{D85BA391-608A-4998-A814-7AC74879849D}"/>
-				<Event Name="Play_TwoHandedSword_RunAttack" ID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}"/>
-				<Event Name="Play_Sword_RunAttack" ID="{AA186613-E28F-4172-A37E-F67A91EA48F8}"/>
-				<Event Name="Play_TwoHandedAxe_Attack1" ID="{540A50BD-F11D-420A-820C-108E6D88795E}"/>
-				<Event Name="Play_TwoHandedAxe_RunAttack" ID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}"/>
-				<Event Name="Play_TwoHandedAxe_Sheath" ID="{DFB84044-DAE5-4046-A56A-713F3ADF2A35}"/>
-				<Event Name="Play_TwoHandedAxe_SpecialAttack" ID="{640C153B-09F9-4C48-BB8C-C258A406A00C}"/>
-				<Event Name="Play_TwoHandedAxe_Unsheath" ID="{70D25C8E-74DC-4883-911D-D0C80A733B99}"/>
-				<Event Name="Stop_TwoHandedAxe_SpecialAttack" ID="{14BDA114-AB80-48D5-A6B2-1FE879D9A3F2}"/>
-				<Event Name="Play_WeaponImpact" ID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}"/>
-				<Event Name="Play_Death" ID="{E3917006-1407-4237-9038-C64FB0266975}"/>
-				<Event Name="Play_GetHit" ID="{CC6468C0-5FCE-405A-AC44-A66DDD737693}"/>
-				<Event Name="Play_Revive" ID="{CEC1C326-7CFB-4A83-B5C9-48A787C901C9}"/>
-				<Event Name="Play_DoubleJump" ID="{39F80A75-D96C-4AB2-98AA-F0E2417E37F7}"/>
-				<Event Name="Play_Roll" ID="{16382481-96F0-4610-9C7C-7D979E439E53}"/>
-				<Event Name="Play_UnarmedAttack" ID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}"/>
+				<Event Name="Stop_TwoHandedSword_SpecialAttack" ID="{E4FB0737-1553-4F4F-B4E5-FE6E1282F4A4}">
+					<ChildrenList>
+						<Action Name="" ID="{10AD9A0A-5FF7-4DD2-A0E2-34A8D9F3A2CF}" ShortID="287720693">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnSpecialAttack" ID="{D24B27E3-6466-49A3-8CBE-271FCC09BBA2}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80E38B75-C9ED-4349-8A8D-8445D2CC8B9B}" ShortID="172545873">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{658A6076-B8D4-4E1B-B1F3-1AB329495A3A}" ShortID="18024917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_SpecialAttack" ID="{D85BA391-608A-4998-A814-7AC74879849D}">
+					<ChildrenList>
+						<Action Name="" ID="{9274FC1D-AF51-4F96-AFF9-46B03D2891F6}" ShortID="854885004">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5698DBBB-C82C-417D-AB60-44D48370E400}" ShortID="468923984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B3DEA3D-2C0F-4DC6-AA2E-D4750907BA33}" ShortID="856105685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{44383314-A371-4100-922B-2E614A60B0A8}" ShortID="610479627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DF06A04-CCE0-4EBC-987A-52EF64C8674C}" ShortID="464459409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedSword_RunAttack" ID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}">
+					<ChildrenList>
+						<Action Name="" ID="{CB5EC7E1-74DD-4F70-A540-85A2DD9A7910}" ShortID="40480077">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{36AB0BB0-D0BB-41DE-90EB-57E2E7530233}" ShortID="779400139">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Running" ID="{F9BB5DAB-E242-4E2D-AAD2-1DD5D418227E}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DB5BBC9D-4373-4130-908E-D143714B44F3}" ShortID="425715839">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{70B72E7F-79F9-41D3-9A5A-8BD30030FAEB}" ShortID="345829663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB5D8B91-1CE6-4558-96A9-2E686DF38DE1}" ShortID="6450073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_RunAttack" ID="{AA186613-E28F-4172-A37E-F67A91EA48F8}">
+					<ChildrenList>
+						<Action Name="" ID="{BAE40F28-C23B-4DDD-A285-015E4855BD39}" ShortID="644813615">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2159288C-C798-4D24-82AF-BEA6CF2DF827}" ShortID="368385438">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Running" ID="{F9BB5DAB-E242-4E2D-AAD2-1DD5D418227E}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B54682C6-EA36-494C-9ACB-32A66E5CE483}" ShortID="538941870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A6BDD9BD-1581-41D0-BA70-1FF026227137}" ShortID="113184111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B7DA46F0-F4AD-4459-A0F5-B851B5D2A7EF}" ShortID="181526971">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedAxe_Attack1" ID="{540A50BD-F11D-420A-820C-108E6D88795E}">
+					<ChildrenList>
+						<Action Name="" ID="{6F924DE4-8CC4-49D4-9006-310314A1F222}" ShortID="618191239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D97E5A3-DBC7-479F-B547-0DC664D7B9A2}" ShortID="540399057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6E79D14D-4010-4FAD-8110-A2E8FC0CFF36}" ShortID="1063710772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2DEB188E-0605-42C7-A948-D2F5246C782D}" ShortID="457622163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C456530-B27C-482C-BCB2-B8F43DD96828}" ShortID="656738150">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedAxe_RunAttack" ID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}">
+					<ChildrenList>
+						<Action Name="" ID="{94634ECB-AFF9-41C2-90B5-5A4365D8FC08}" ShortID="689897577">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{329800BF-F343-4A3C-ADB6-061D94E06B3A}" ShortID="427321867">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3EBD23F-394A-4729-A386-D1B40046082F}" ShortID="189293483">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7E299771-6167-4CB3-9057-3E321DB8C07A}" ShortID="908814379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F65DE27C-422D-48F5-A7B2-53042AF3B6F8}" ShortID="1047431440">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedAxe_Sheath" ID="{DFB84044-DAE5-4046-A56A-713F3ADF2A35}">
+					<ChildrenList>
+						<Action Name="" ID="{BF1DA467-0B7D-4EF5-BB7E-1793FF25A321}" ShortID="516483941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0BC93070-7696-42DC-AE65-60C5FED137D2}" ShortID="136191549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnSheath" ID="{8E60FD6F-8A3D-4BEC-AE21-083B2CF2AAC2}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedAxe_SpecialAttack" ID="{640C153B-09F9-4C48-BB8C-C258A406A00C}">
+					<ChildrenList>
+						<Action Name="" ID="{3C85BB09-0AA7-4D0F-9BF3-DD020EF6E7E0}" ShortID="920575341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE8B1A6F-149D-48C2-9061-6917B61F7DCB}" ShortID="25056981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Special" ID="{4C03C013-B372-49F2-9D9B-3E410FE77A95}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D91EB81-168D-4C5B-BD50-73C11172977C}" ShortID="965025916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6EE3BEE1-4957-4088-A00B-D835BD758177}" ShortID="863983797">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5565CCB0-A286-4C34-87B9-8DD7BA66DAFA}" ShortID="1028148263">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoHandedAxe_Unsheath" ID="{70D25C8E-74DC-4883-911D-D0C80A733B99}">
+					<ChildrenList>
+						<Action Name="" ID="{6EA5A913-93A8-4FAE-981E-AE53872AC717}" ShortID="735998109">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3AB04A08-F590-466E-8F15-02D64BC66B67}" ShortID="561803145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Equipment_OnUnsheath" ID="{B78784E5-8D6C-416F-954B-DB90BBCB30AB}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TwoHandedAxe_SpecialAttack" ID="{14BDA114-AB80-48D5-A6B2-1FE879D9A3F2}">
+					<ChildrenList>
+						<Action Name="" ID="{1CD3FD23-28D4-461E-9626-C47D0F28F707}" ShortID="749527902">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnSpecialAttack" ID="{D24B27E3-6466-49A3-8CBE-271FCC09BBA2}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{87E94BF0-CE42-4425-BB8C-01C9D68AD93E}" ShortID="405840511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9D5F9CAD-7E83-4739-B825-A547C9D2174D}" ShortID="1030854115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WeaponImpact" ID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}">
+					<ChildrenList>
+						<Action Name="" ID="{F40714CB-4AA9-484A-ADFE-BDEB54251B21}" ShortID="1038713692">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Impacts_OnCollison" ID="{4B105832-4576-46BC-BD89-2C06F3E62F4A}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death" ID="{E3917006-1407-4237-9038-C64FB0266975}">
+					<ChildrenList>
+						<Action Name="" ID="{C6B94CDE-3D55-4E09-A9CE-7899C16FBE31}" ShortID="22406470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Knight_OnDeath" ID="{32CD6547-194D-471D-98EB-8AE929397858}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GetHit" ID="{CC6468C0-5FCE-405A-AC44-A66DDD737693}">
+					<ChildrenList>
+						<Action Name="" ID="{6DDD0015-D7E9-4235-9F1E-D1B063C4397B}" ShortID="938745584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Knight_Armour_OnHit" ID="{25ECF71A-E9DF-46A9-BCCA-ABF16E31622F}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Revive" ID="{CEC1C326-7CFB-4A83-B5C9-48A787C901C9}">
+					<ChildrenList>
+						<Action Name="" ID="{1B7622D7-C390-4E66-8009-E2232401D9C4}" ShortID="924043929">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E455E136-E71D-4488-A534-EE50901E5D27}" ShortID="258080624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Knight_OnRevive" ID="{7FB3DB78-5BC6-4A8B-A901-CDB77DAA1C36}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{82E3EA40-DB8D-4F8F-9FCB-B69F3366CBCC}" ShortID="953301317">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoubleJump" ID="{39F80A75-D96C-4AB2-98AA-F0E2417E37F7}">
+					<ChildrenList>
+						<Action Name="" ID="{1F57D67A-226A-4356-B3FB-7DA6F77E1754}" ShortID="535072437">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoubleJump" ID="{0C66C70E-8B1B-4BC3-9731-BCEC47824855}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7163D320-C6A0-4F03-AFCC-AA1A6F984C5C}" ShortID="797943807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Roll" ID="{16382481-96F0-4610-9C7C-7D979E439E53}">
+					<ChildrenList>
+						<Action Name="" ID="{256CD7F4-B9F9-476E-A803-BD2D9061DE3A}" ShortID="232915822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roll" ID="{9DE50FCC-7F07-46E9-B807-F68F1E43213C}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3862DAC4-EF31-4F68-8415-EDD568990C67}" ShortID="3423924">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2BE0E66F-A617-4C53-900A-E1D4A8F26A48}" ShortID="1018337985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Footsteps" ID="{D0AC1C77-899C-4614-A716-560AD14755BF}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DB50B4A-DE91-4E5D-86F7-B3BC7115DAD1}" ShortID="578667495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UnarmedAttack" ID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}">
+					<ChildrenList>
+						<Action Name="" ID="{7700EAAB-1EC2-474C-9AB2-704801B4A019}" ShortID="1003443040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Unarmed" ID="{AE4DBCF3-86D8-4362-8AA5-FEE74F742D36}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C0359840-D82A-4F3C-B2DE-73E01001794B}" ShortID="221949090">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D331FEC-F6C4-4BB8-A9C5-6455A8C58FF6}" ShortID="91183684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_OnAttack" ID="{927E5FFC-26B1-43AA-9792-133686A2EE08}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C859DE48-76D7-4CC0-A0FB-03EAA7100757}" ShortID="513676539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{91182A8B-4F0F-4C06-B328-C4547E613E99}" ShortID="865150528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Knight_Armour_OnMove" ID="{BBB7A166-8A65-4389-8240-050514190C68}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
