@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A7C2F518-9513-43D0-83A9-3115E4B64C6E}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A7C2F518-9513-43D0-83A9-3115E4B64C6E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A7C2F518-9513-43D0-83A9-3115E4B64C6E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{71B69425-1896-46B4-BAE3-7DCE847DD45A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}"/>
+						<CurrentSwitchRef Name="Wood" ID="{615C95FF-2781-492C-91C3-44D50AF789C3}"/>
+						<CurrentSwitchRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}"/>
+						<CurrentSwitchRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
