@@ -19,6 +19,7 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}"/>
@@ -45,8 +46,8 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Switch Name="Wood" ID="{615C95FF-2781-492C-91C3-44D50AF789C3}"/>
 						<Switch Name="Stone" ID="{CA07DA2D-5FE2-4656-A778-011EC31B8831}"/>
+						<Switch Name="Armour" ID="{6B60A2EB-0555-4D72-A72F-337102AC1698}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

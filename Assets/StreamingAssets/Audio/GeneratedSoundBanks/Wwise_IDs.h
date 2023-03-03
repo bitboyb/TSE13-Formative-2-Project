@@ -54,8 +54,8 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID ARMOUR = 4151873597U;
                 static const AkUniqueID STONE = 1216965916U;
-                static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace IMPACT_MATERIAL
 

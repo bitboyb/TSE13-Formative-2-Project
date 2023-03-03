@@ -761,6 +761,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 80f7dc0296dd3524b97832b3929e672d,
       type: 2}
+  weaponImpactSwitches:
+  - Sword
+  - TwoHandAxe
+  - TwoHandSword
+  - Unarmed
   isAttacking: 0
 --- !u!65 &1836886431
 BoxCollider:

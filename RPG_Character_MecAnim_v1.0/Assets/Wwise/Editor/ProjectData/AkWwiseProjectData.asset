@@ -12,14 +12,584 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8ae67a773047c4eaf64fbc6751e5b0, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0cd4da2f8028d643b7da1392819671b0
+    GuidInternal: 
+    m_lastTime: -8586073115294775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 805ed456e19f194da272afe52afddc6d
+    GuidInternal: 
+    m_lastTime: -8586073115294775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 848b198fb548d7449a516e0a1354e762
+    GuidInternal: 
+    m_lastTime: -8585259685276355315
+    List:
+    - name: Master_SoundBank
+      guid: df536db09314e8499400fb2df721c16a
+      id: 2469504869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Master_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8c958f00e825d54b81a6f4b240ac24dc
+    GuidInternal: 
+    m_lastTime: -8585237482462428345
+    List:
+    - name: Play_Death
+      guid: 067091e3071437429038c64fb0266975
+      id: 1172822028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Death
+        ObjectType: 3
+      Path: Default Work Unit\Play_Death
+      maxAttenuation: 0
+      maxDuration: 3.428571
+      minDuration: 3.428571
+    - name: Play_DoubleJump
+      guid: 750af8396cd9b24a98aaf0e2417e37f7
+      id: 595748461
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DoubleJump
+        ObjectType: 3
+      Path: Default Work Unit\Play_DoubleJump
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_FootstepLeft
+      guid: 80a5adca6496634b8dce3f187b63ef76
+      id: 2128275847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_FootstepLeft
+        ObjectType: 3
+      Path: Default Work Unit\Play_FootstepLeft
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Play_FootstepRight
+      guid: 428666e45cdf45479968b7153d1c54bb
+      id: 3578792042
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_FootstepRight
+        ObjectType: 3
+      Path: Default Work Unit\Play_FootstepRight
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Play_GetHit
+      guid: c06864ccce5f5a40ac44a66ddd737693
+      id: 2822901905
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_GetHit
+        ObjectType: 3
+      Path: Default Work Unit\Play_GetHit
+      maxAttenuation: 0
+      maxDuration: 1.786979
+      minDuration: 0.982269
+    - name: Play_Jump
+      guid: ebf43829f1324d43818ce7860d17a7c9
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Jump
+        ObjectType: 3
+      Path: Default Work Unit\Play_Jump
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Play_Land
+      guid: 84995cc7ae4a5d45a265f4d9786d481c
+      id: 4285282925
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Land
+        ObjectType: 3
+      Path: Default Work Unit\Play_Land
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Play_Revive
+      guid: 26c3c1cefb7c834ab5c948a787c901c9
+      id: 3055149681
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Revive
+        ObjectType: 3
+      Path: Default Work Unit\Play_Revive
+      maxAttenuation: 0
+      maxDuration: 3.428571
+      minDuration: 3.428571
+    - name: Play_Roll
+      guid: 81243816f09610469c7c7d979e439e53
+      id: 2719919427
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Roll
+        ObjectType: 3
+      Path: Default Work Unit\Play_Roll
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Play_Sword_Attack1
+      guid: da498cf7d3f3b245b3d366190fb47b93
+      id: 1584859361
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_Attack1
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_Attack1
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_Sword_Attack2
+      guid: afdacddf402fed48b366f8e0ca37565f
+      id: 1584859362
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_Attack2
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_Attack2
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_Sword_RunAttack
+      guid: 136618aa8fe27241a37ef67a91ea48f8
+      id: 1410769155
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_RunAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_RunAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_Sword_Sheath
+      guid: cbae1760a61cda41b2785a0249ae8bbd
+      id: 648635755
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_Sheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_Sheath
+      maxAttenuation: 0
+      maxDuration: 1.438359
+      minDuration: 1.195926
+    - name: Play_Sword_SpecialAttack
+      guid: 7ad4075053eebd4da08c3ffbbdc080bf
+      id: 84470053
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_Sword_Unsheath
+      guid: e2c024bdcf72e347be557f980ffc9296
+      id: 2036163030
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sword_Unsheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_Sword_Unsheath
+      maxAttenuation: 0
+      maxDuration: 1.308027
+      minDuration: 1.195926
+    - name: Play_TwoHandedAxe_Attack1
+      guid: bd500a541df10a42820c108e6d88795e
+      id: 2010515388
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedAxe_Attack1
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedAxe_Attack1
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedAxe_RunAttack
+      guid: 8d73a5a6f160784aadc8e89cf3cdc131
+      id: 1134264338
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedAxe_RunAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedAxe_RunAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedAxe_Sheath
+      guid: 4440b8dfe5da4640a56a713f3adf2a35
+      id: 1958446052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedAxe_Sheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedAxe_Sheath
+      maxAttenuation: 0
+      maxDuration: 1.438359
+      minDuration: 1.195926
+    - name: Play_TwoHandedAxe_SpecialAttack
+      guid: 3b150c64f909484cbb8cc258a406a00c
+      id: 3221502996
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedAxe_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedAxe_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedAxe_Unsheath
+      guid: 8e5cd270dc748348911dd0c80a733b99
+      id: 303499673
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedAxe_Unsheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedAxe_Unsheath
+      maxAttenuation: 0
+      maxDuration: 1.308027
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_Attack1
+      guid: af48ed0364e12e4db1cd7307d693deec
+      id: 1206382859
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_Attack1
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_Attack1
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_Attack2
+      guid: 9593e1f10b87ed4093030392e5f750ae
+      id: 1206382856
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_Attack2
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_Attack2
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_RunAttack
+      guid: 1a15c1920d435c45a4d7bca6c110c1d5
+      id: 2511424613
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_RunAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_RunAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_Sheath
+      guid: ef82f39c89a4d64fbaa10aea00f66d01
+      id: 3306336597
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_Sheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_Sheath
+      maxAttenuation: 0
+      maxDuration: 1.438359
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_SpecialAttack
+      guid: 91a35bd88a609849a8147ac74879849d
+      id: 3612828199
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_TwoHandedSword_Unsheath
+      guid: 112017ab0c092444b7f25e94b575746f
+      id: 1826018124
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TwoHandedSword_Unsheath
+        ObjectType: 3
+      Path: Default Work Unit\Play_TwoHandedSword_Unsheath
+      maxAttenuation: 0
+      maxDuration: 1.308027
+      minDuration: 1.195926
+    - name: Play_UnarmedAttack
+      guid: a1214d390dba7b4fbf156a8f7b49db22
+      id: 194921656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_UnarmedAttack
+        ObjectType: 3
+      Path: Default Work Unit\Play_UnarmedAttack
+      maxAttenuation: 0
+      maxDuration: 1.33483
+      minDuration: 1.195926
+    - name: Play_WeaponImpact
+      guid: 83ea8717d84352429dd9b31fad4b6cf6
+      id: 157213476
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_WeaponImpact
+        ObjectType: 3
+      Path: Default Work Unit\Play_WeaponImpact
+      maxAttenuation: 0
+      maxDuration: 1.786979
+      minDuration: 0.480971
+    - name: Stop_Sword_SpecialAttack
+      guid: 5093210ab78cc845b7a627d098bcb6ad
+      id: 2732819635
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Sword_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Sword_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_TwoHandedAxe_SpecialAttack
+      guid: 14a1bd1480abd548a6b21fe879d9a3f2
+      id: 2020420858
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_TwoHandedAxe_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Stop_TwoHandedAxe_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+    - name: Stop_TwoHandedSword_SpecialAttack
+      guid: 3707fbe453154f4fb4e5fe6e1282f4a4
+      id: 1771533845
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_TwoHandedSword_SpecialAttack
+        ObjectType: 3
+      Path: Default Work Unit\Stop_TwoHandedSword_SpecialAttack
+      maxAttenuation: 0
+      maxDuration: 1.267771
+      minDuration: 1.195926
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 434070659d77ae47ab36afee4c06eeff
+    GuidInternal: 
+    m_lastTime: -8585237482462188671
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5e8831a41f2b234286f33f95245c6146
+    GuidInternal: 
+    m_lastTime: -8586073115294775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c8da9857af183140845d760ca7533ac4
+    GuidInternal: 
+    m_lastTime: -8585237482462308673
+    List:
+    - name: Impact_Material
+      guid: f7bc3d2d4dfb9148a6cd01f969f848f2
+      id: 1559186049
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Impact_Material
+        ObjectType: 11
+      Path: Default Work Unit\Impact_Material
+      values:
+      - name: Armour
+        guid: eba2606b5505724da72f337102ac1698
+        id: 4151873597
+        PathAndIcons:
+        - ElementName: Armour
+          ObjectType: 10
+      - name: Stone
+        guid: 2dda07cae25f5646a778011ec31b8831
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Stone
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Player_AttackType
+      guid: d48a57bd51412c479c3df88693d993ce
+      id: 77912705
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_AttackType
+        ObjectType: 11
+      Path: Default Work Unit\Player_AttackType
+      values:
+      - name: Normal
+        guid: 202424627e1b554884e8e1a2f530c57a
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Normal
+          ObjectType: 10
+      - name: Running
+        guid: ab5dbbf942e22d4eaad21dd5d418227e
+        id: 3863236874
+        PathAndIcons:
+        - ElementName: Running
+          ObjectType: 10
+      - name: Special
+        guid: 13c0034c72b3f2499d9b3e410fe77a95
+        id: 3064974266
+        PathAndIcons:
+        - ElementName: Special
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Player_Movement
+      guid: f466305d3121ca498d6ece1cd2666c40
+      id: 541470702
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Movement
+        ObjectType: 11
+      Path: Default Work Unit\Player_Movement
+      values:
+      - name: DoubleJump
+        guid: 0ec7660c1b8bc34b9731bcec47824855
+        id: 1308315758
+        PathAndIcons:
+        - ElementName: DoubleJump
+          ObjectType: 10
+      - name: Jump
+        guid: 114168bc680bf44588c5d3bdbea8c420
+        id: 3833651337
+        PathAndIcons:
+        - ElementName: Jump
+          ObjectType: 10
+      - name: Normal
+        guid: 652c97745ae2664cabee33b0a14911c9
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Normal
+          ObjectType: 10
+      - name: Roll
+        guid: cc0fe59d077fe946b807f68f1e43213c
+        id: 2026920480
+        PathAndIcons:
+        - ElementName: Roll
+          ObjectType: 10
+      - name: Running
+        guid: a4584f04ad81294f99e7be4c769c4838
+        id: 3863236874
+        PathAndIcons:
+        - ElementName: Running
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Player_Weapon
+      guid: 5fdb15491df0534aa126c114518f1111
+      id: 1625387345
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Weapon
+        ObjectType: 11
+      Path: Default Work Unit\Player_Weapon
+      values:
+      - name: Sword
+        guid: 4094ffb5350f344a9e4b04190fd34994
+        id: 2454616260
+        PathAndIcons:
+        - ElementName: Sword
+          ObjectType: 10
+      - name: TwoHandAxe
+        guid: 7a16e4eb7289544d9e31dbb6b61e542b
+        id: 2556362570
+        PathAndIcons:
+        - ElementName: TwoHandAxe
+          ObjectType: 10
+      - name: TwoHandSword
+        guid: 1cf01fa0cfc8f34d8af6204dd1e32399
+        id: 3456977529
+        PathAndIcons:
+        - ElementName: TwoHandSword
+          ObjectType: 10
+      - name: Unarmed
+        guid: f3bc4daed88662438aa5fee74f742d36
+        id: 1123359481
+        PathAndIcons:
+        - ElementName: Unarmed
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: dfeb13338df9c44fa0db48b8cf2c8f9d
+    GuidInternal: 
+    m_lastTime: -8586073115294775808
+    List: []
+  ExpandedItems:
+  - /RPG_Character_MecAnim_v1.0_WwiseProject
+  - /RPG_Character_MecAnim_v1.0_WwiseProject/Events
+  - /RPG_Character_MecAnim_v1.0_WwiseProject/Switches
+  - /RPG_Character_MecAnim_v1.0_WwiseProject/Switches/Default Work Unit
+  - /RPG_Character_MecAnim_v1.0_WwiseProject/Switches/Default Work Unit/Player_Weapon
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

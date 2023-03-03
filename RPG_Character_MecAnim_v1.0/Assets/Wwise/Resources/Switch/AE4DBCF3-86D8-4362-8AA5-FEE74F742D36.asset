@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86710afeb504364380999248e8de5cf, type: 3}
+  m_Name: AE4DBCF3-86D8-4362-8AA5-FEE74F742D36
+  m_EditorClassIdentifier: 
+  objectName: Unarmed
+  id: 1123359481
+  guid: AE4DBCF3-86D8-4362-8AA5-FEE74F742D36
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: e9db79c29e0cb5a4a9991ac4228ae874,
+    type: 2}

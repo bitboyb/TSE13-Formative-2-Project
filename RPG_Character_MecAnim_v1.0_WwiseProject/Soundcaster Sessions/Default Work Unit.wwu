@@ -6,17 +6,33 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{71B69425-1896-46B4-BAE3-7DCE847DD45A}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<ObjectRef Name="Play_TwoHandedAxe_RunAttack" ID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_WeaponImpact" ID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sword_Attack1" ID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TwoHandedSword_RunAttack" ID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sword_RunAttack" ID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}"/>
-						<CurrentSwitchRef Name="Wood" ID="{615C95FF-2781-492C-91C3-44D50AF789C3}"/>
-						<CurrentSwitchRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}"/>
-						<CurrentSwitchRef Name="Sword" ID="{B5FF9440-0F35-4A34-9E4B-04190FD34994}"/>
+						<CurrentSwitchRef Name="Running" ID="{F9BB5DAB-E242-4E2D-AAD2-1DD5D418227E}"/>
+						<CurrentSwitchRef Name="Stone" ID="{CA07DA2D-5FE2-4656-A778-011EC31B8831}"/>
+						<CurrentSwitchRef Name="DoubleJump" ID="{0C66C70E-8B1B-4BC3-9731-BCEC47824855}"/>
+						<CurrentSwitchRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

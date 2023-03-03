@@ -1385,6 +1385,11 @@ namespace RPGCharacterAnims
         }
 
         #endregion
+        
+        public string GetCurrentWeapon()
+        {
+            return weapon.ToString();
+        }
 
     }
 }
