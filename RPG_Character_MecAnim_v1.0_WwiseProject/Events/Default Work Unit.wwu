@@ -5,16 +5,6 @@
 			<ChildrenList>
 				<Event Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}">
 					<ChildrenList>
-						<Action Name="" ID="{25E045D0-2BDB-40EC-99A9-0550C1833B20}" ShortID="233323265">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{3E01E882-0C81-42FF-9AA2-3DF6424BD5E6}" ShortID="291366512">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -40,16 +30,6 @@
 				</Event>
 				<Event Name="Play_FootstepRight" ID="{E4668642-DF5C-4745-9968-B7153D1C54BB}">
 					<ChildrenList>
-						<Action Name="" ID="{0EAFDD63-9FA0-4625-AE00-CA44C32F3266}" ShortID="1002057580">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{8F665A84-8D59-45B0-A1CD-AE0A17EDDCDA}" ShortID="967618034">
 							<ReferenceList>
 								<Reference Name="Target">

@@ -22,8 +22,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_FootstepLeft" ID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Sword_RunAttack" ID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Jump" ID="{2938F4EB-32F1-434D-818C-E7860D17A7C9}" WorkUnitID="{008F958C-25E8-4BD5-81A6-F4B240AC24DC}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
@@ -31,7 +39,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Running" ID="{F9BB5DAB-E242-4E2D-AAD2-1DD5D418227E}"/>
 						<CurrentSwitchRef Name="Stone" ID="{CA07DA2D-5FE2-4656-A778-011EC31B8831}"/>
-						<CurrentSwitchRef Name="DoubleJump" ID="{0C66C70E-8B1B-4BC3-9731-BCEC47824855}"/>
+						<CurrentSwitchRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}"/>
 						<CurrentSwitchRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

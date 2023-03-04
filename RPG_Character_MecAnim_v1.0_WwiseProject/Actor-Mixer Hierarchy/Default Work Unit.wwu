@@ -524,7 +524,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-6</Value>
+																<Value>-10</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -557,6 +557,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="UnSheath Test" ID="{C02F6EE0-E719-43CD-B1BF-E2AE1CCBE27A}" ShortID="5381343">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5.49171729760607E-02"/>
+																<Property Name="LoopEnd" Type="Real64" Value="1.0733584324315"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.08586228384484"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>UnSheath Test.wav</AudioFile>
 														</AudioFileSource>
@@ -1893,16 +1899,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_Knight_OnAttack_Special_2HAxe" ID="{58A03CA9-0080-4C4E-A452-9D1B9FF5CAB8}" ShortID="274547213">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-												</Sound>
 												<Sound Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}" ShortID="373585301">
 													<PropertyList>
 														<Property Name="InitialDelay" Type="Real64">
@@ -1941,41 +1937,23 @@
 														<ActiveSource Name="SwordSpecial_test_01" ID="{03F72E3F-904D-4FD5-BCF6-DC55D234E4CD}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}" ShortID="667401031">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
 														<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="SFX_Knight_OnAttack_Special_2HAxe" ID="{58A03CA9-0080-4C4E-A452-9D1B9FF5CAB8}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}"/>
-													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}"/>
 														<ItemList>
-															<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}"/>
 															<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}"/>
 														<ItemList>
-															<ItemRef Name="SFX_Knight_OnAttack_Special_2HAxe" ID="{58A03CA9-0080-4C4E-A452-9D1B9FF5CAB8}"/>
 															<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 														</ItemList>
 													</Grouping>
@@ -2160,6 +2138,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_01" ID="{8CF50527-0B69-40DE-857D-3B4446DE902D}" ShortID="52460899">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_01" ID="{8CF50527-0B69-40DE-857D-3B4446DE902D}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_02" ID="{D2C930D2-29B6-4A4F-8DEA-36022B280B96}" ShortID="72769034">
 													<ReferenceList>
@@ -2170,6 +2157,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_02" ID="{CC1D7A66-8B61-41FE-B5AC-EDDBB968C0AE}" ShortID="829409516">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_02" ID="{CC1D7A66-8B61-41FE-B5AC-EDDBB968C0AE}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_03" ID="{8858261A-D36A-4AB5-AEA4-ADCD2160DACF}" ShortID="680037625">
 													<ReferenceList>
@@ -2180,6 +2176,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_03" ID="{1D780A91-4F2E-4EFC-A947-E23E23CC508B}" ShortID="728703031">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_03" ID="{1D780A91-4F2E-4EFC-A947-E23E23CC508B}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2202,6 +2207,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_05" ID="{27E9E1A6-8183-4677-9B6A-51043703F46C}" ShortID="21048854">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_05" ID="{27E9E1A6-8183-4677-9B6A-51043703F46C}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_02" ID="{82B32724-41AE-403A-9A7E-A4DEE3B684BF}" ShortID="450795913">
 													<ReferenceList>
@@ -2212,6 +2226,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_04" ID="{919165ED-8DEE-490A-93C2-29BB05E9FB45}" ShortID="542470581">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_04" ID="{919165ED-8DEE-490A-93C2-29BB05E9FB45}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_03" ID="{F8D5CAD9-38FB-4508-B77D-B0116E680AEF}" ShortID="173470065">
 													<ReferenceList>
@@ -2222,6 +2245,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="onAttack_06" ID="{0E898FC8-F862-495C-A82B-9DF42EB6C7DB}" ShortID="769743844">
+															<Language>SFX</Language>
+															<AudioFile>onAttack_06.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="onAttack_06" ID="{0E898FC8-F862-495C-A82B-9DF42EB6C7DB}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2244,6 +2276,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="doubleAttack_01" ID="{667138C9-0636-43A5-9B57-FB883D721E53}" ShortID="964585421">
+															<Language>SFX</Language>
+															<AudioFile>doubleAttack_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="doubleAttack_01" ID="{667138C9-0636-43A5-9B57-FB883D721E53}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_02" ID="{BD6DC36E-A5F0-48EA-B9F4-2F9102C88A37}" ShortID="211638073">
 													<ReferenceList>
@@ -2254,6 +2295,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="doubleAttack_02" ID="{0A4A7EE8-2707-43AA-B266-E92E2F4E0E04}" ShortID="718510231">
+															<Language>SFX</Language>
+															<AudioFile>doubleAttack_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="doubleAttack_02" ID="{0A4A7EE8-2707-43AA-B266-E92E2F4E0E04}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_03" ID="{1960998B-DCE3-4133-8CF0-ABA410F05329}" ShortID="607325363">
 													<ReferenceList>
@@ -2264,6 +2314,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="doubleAttack_03" ID="{60B8A6F9-C279-4435-BC8A-8EA9FC44779B}" ShortID="51475221">
+															<Language>SFX</Language>
+															<AudioFile>doubleAttack_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="doubleAttack_03" ID="{60B8A6F9-C279-4435-BC8A-8EA9FC44779B}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2280,6 +2339,26 @@
 												<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Special" ID="{4C03C013-B372-49F2-9D9B-3E410FE77A95}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Special" ID="{757CC632-102F-4CF3-8427-138A73C7E4EE}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Normal" ID="{9CCA8F7A-0F2F-48A2-8305-1C59D6EBAEA8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Running" ID="{F9BB5DAB-E242-4E2D-AAD2-1DD5D418227E}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" ShortID="389709619">
@@ -2317,6 +2396,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightBreath_01" ID="{8C54876D-2F9B-454B-A994-854C95FC33F3}" ShortID="524352400">
+															<Language>SFX</Language>
+															<AudioFile>lightBreath_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightBreath_01" ID="{8C54876D-2F9B-454B-A994-854C95FC33F3}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_02" ID="{499A28D6-D630-4865-A8F3-85307378E6F6}" ShortID="932725001">
 													<ReferenceList>
@@ -2327,6 +2415,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightBreath_02" ID="{88C65EFB-D08E-4C9D-B63C-EB79B5B0F2A6}" ShortID="632493094">
+															<Language>SFX</Language>
+															<AudioFile>lightBreath_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightBreath_02" ID="{88C65EFB-D08E-4C9D-B63C-EB79B5B0F2A6}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_03" ID="{30F509F3-80BC-43D6-A398-E2920AD56192}" ShortID="913440814">
 													<ReferenceList>
@@ -2337,6 +2434,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightBreath_03" ID="{ED86992E-5D5D-4B33-A3DD-0AFD8E4E0D21}" ShortID="209711547">
+															<Language>SFX</Language>
+															<AudioFile>lightBreath_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightBreath_03" ID="{ED86992E-5D5D-4B33-A3DD-0AFD8E4E0D21}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2359,6 +2465,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightGrunt_01" ID="{6AAB4519-F5B8-45F3-BFB0-C06B69198C56}" ShortID="270683814">
+															<Language>SFX</Language>
+															<AudioFile>lightGrunt_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightGrunt_01" ID="{6AAB4519-F5B8-45F3-BFB0-C06B69198C56}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_02" ID="{1F5F1BFE-936E-4DAF-B285-916D273D9222}" ShortID="1028701613">
 													<ReferenceList>
@@ -2369,6 +2484,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightGrunt_02" ID="{2DBCC535-F419-4D2B-AD2A-9195B380ED85}" ShortID="508029534">
+															<Language>SFX</Language>
+															<AudioFile>lightGrunt_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightGrunt_02" ID="{2DBCC535-F419-4D2B-AD2A-9195B380ED85}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_03" ID="{B073A327-3564-4471-A883-3DA555D77B9E}" ShortID="827324827">
 													<ReferenceList>
@@ -2379,6 +2503,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="lightGrunt_03" ID="{C46CB3F5-C54F-4078-A512-E2D8DC644012}" ShortID="968031171">
+															<Language>SFX</Language>
+															<AudioFile>lightGrunt_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="lightGrunt_03" ID="{C46CB3F5-C54F-4078-A512-E2D8DC644012}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2401,6 +2534,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="mediumBreath_01" ID="{047B094F-32DE-4E04-A4C2-6C4271CEF968}" ShortID="252999678">
+															<Language>SFX</Language>
+															<AudioFile>mediumBreath_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="mediumBreath_01" ID="{047B094F-32DE-4E04-A4C2-6C4271CEF968}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_02" ID="{46DD7381-3A60-4636-B4A2-643472D4F8F3}" ShortID="850218575">
 													<ReferenceList>
@@ -2411,6 +2553,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="mediumBreath_02" ID="{3F93A7B2-5E28-43EB-B710-394957BAE3C1}" ShortID="688914136">
+															<Language>SFX</Language>
+															<AudioFile>mediumBreath_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="mediumBreath_02" ID="{3F93A7B2-5E28-43EB-B710-394957BAE3C1}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_03" ID="{3ED1ED3C-5F65-4FD1-9E13-55678CBD8C1B}" ShortID="146897220">
 													<ReferenceList>
@@ -2421,6 +2572,15 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="mediumBreath_03" ID="{16E41628-7179-4657-81DA-E24C249BA8E1}" ShortID="857876283">
+															<Language>SFX</Language>
+															<AudioFile>mediumBreath_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="mediumBreath_03" ID="{16E41628-7179-4657-81DA-E24C249BA8E1}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -2490,6 +2650,15 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="onHit_01" ID="{FF21C085-E681-42F8-AA1A-91BD8F4534F5}" ShortID="397851625">
+													<Language>SFX</Language>
+													<AudioFile>onHit_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="onHit_01" ID="{FF21C085-E681-42F8-AA1A-91BD8F4534F5}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Knight_Vocalisation_OnHit_02" ID="{A07D65C9-E750-4D2E-8958-1AB829F9DF26}" ShortID="880907006">
 											<ReferenceList>
@@ -2500,6 +2669,15 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="onHit_bonus_01" ID="{3F280DFB-CC9A-4138-9DF0-6079DE38A140}" ShortID="684847413">
+													<Language>SFX</Language>
+													<AudioFile>onHit_bonus_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="onHit_bonus_01" ID="{3F280DFB-CC9A-4138-9DF0-6079DE38A140}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Knight_Vocalisation_OnHit_03" ID="{D7A20BFB-3EDA-43F1-B47D-1C496AD9AB58}" ShortID="737985484">
 											<ReferenceList>
@@ -2510,6 +2688,15 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="onHit_bonus_02" ID="{57A08ACB-84AD-4F82-835F-C41BEE77B477}" ShortID="891479999">
+													<Language>SFX</Language>
+													<AudioFile>onHit_bonus_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="onHit_bonus_02" ID="{57A08ACB-84AD-4F82-835F-C41BEE77B477}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>

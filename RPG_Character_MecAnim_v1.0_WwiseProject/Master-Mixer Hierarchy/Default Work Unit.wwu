@@ -24,9 +24,25 @@
 									<ChildrenList>
 										<Bus Name="AB_Knight_Vocalisation" ID="{D5F6DB2D-C0F3-43CB-BA5E-290CBA6DF61F}">
 											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Color" Type="int16" Value="14"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>46</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
+											<ReferenceList/>
 										</Bus>
 										<Bus Name="AB_Knight_Movement" ID="{CB96F42E-953B-43A8-8802-3A80C7CD852D}"/>
 										<Bus Name="AB_Knight_Attack" ID="{12FC2666-5537-4FCC-A10A-41068D269398}">

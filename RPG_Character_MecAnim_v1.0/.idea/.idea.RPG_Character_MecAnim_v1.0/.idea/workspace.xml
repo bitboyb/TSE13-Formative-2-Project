@@ -80,6 +80,7 @@
       <workItem from="1675636241703" duration="1142000" />
       <workItem from="1677173715129" duration="2948000" />
       <workItem from="1677749131648" duration="2059000" />
+      <workItem from="1677844544962" duration="4485000" />
     </task>
     <servers />
   </component>
@@ -90,5 +91,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/ExplosiveLLC/RPG Character Animation Pack/Code/GUIControls.cs</url>
+          <line>96</line>
+          <properties documentPath="D:\Unity Prototypes\TSE13-Formative-1-Project\RPG_Character_MecAnim_v1.0\Assets\ExplosiveLLC\RPG Character Animation Pack\Code\GUIControls.cs" initialLine="96" containingFunctionPresentation="method 'OnGUI'">
+            <startOffsets>
+              <option value="3386" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3452" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

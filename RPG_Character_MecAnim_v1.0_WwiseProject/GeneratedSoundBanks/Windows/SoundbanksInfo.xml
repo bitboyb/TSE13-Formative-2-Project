@@ -22,7 +22,7 @@
 			<Path>Master_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death" GUID="{E3917006-1407-4237-9038-C64FB0266975}" DurationType="OneShot" DurationMin="3.428571" DurationMax="3.428571"/>
-				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Default Work Unit\Play_DoubleJump" GUID="{39F80A75-D96C-4AB2-98AA-F0E2417E37F7}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Default Work Unit\Play_DoubleJump" GUID="{39F80A75-D96C-4AB2-98AA-F0E2417E37F7}" DurationType="OneShot" DurationMin="0.385604" DurationMax="0.711396"/>
 				<Event Id="2128275847" Name="Play_FootstepLeft" ObjectPath="\Events\Default Work Unit\Play_FootstepLeft" GUID="{CAADA580-9664-4B63-8DCE-3F187B63EF76}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="3578792042" Name="Play_FootstepRight" ObjectPath="\Events\Default Work Unit\Play_FootstepRight" GUID="{E4668642-DF5C-4745-9968-B7153D1C54BB}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="2822901905" Name="Play_GetHit" ObjectPath="\Events\Default Work Unit\Play_GetHit" GUID="{CC6468C0-5FCE-405A-AC44-A66DDD737693}" DurationType="OneShot" DurationMin="0.982269" DurationMax="1.786979"/>
@@ -35,18 +35,18 @@
 				<Event Id="1410769155" Name="Play_Sword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_RunAttack" GUID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="648635755" Name="Play_Sword_Sheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Sheath" GUID="{6017AECB-1CA6-41DA-B278-5A0249AE8BBD}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
 				<Event Id="84470053" Name="Play_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_SpecialAttack" GUID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
-				<Event Id="2036163030" Name="Play_Sword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Unsheath" GUID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
+				<Event Id="2036163030" Name="Play_Sword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Unsheath" GUID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="2010515388" Name="Play_TwoHandedAxe_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Attack1" GUID="{540A50BD-F11D-420A-820C-108E6D88795E}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="1134264338" Name="Play_TwoHandedAxe_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_RunAttack" GUID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="1958446052" Name="Play_TwoHandedAxe_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Sheath" GUID="{DFB84044-DAE5-4046-A56A-713F3ADF2A35}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
 				<Event Id="3221502996" Name="Play_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_SpecialAttack" GUID="{640C153B-09F9-4C48-BB8C-C258A406A00C}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
-				<Event Id="303499673" Name="Play_TwoHandedAxe_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Unsheath" GUID="{70D25C8E-74DC-4883-911D-D0C80A733B99}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
+				<Event Id="303499673" Name="Play_TwoHandedAxe_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Unsheath" GUID="{70D25C8E-74DC-4883-911D-D0C80A733B99}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="1206382859" Name="Play_TwoHandedSword_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack1" GUID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="1206382856" Name="Play_TwoHandedSword_Attack2" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack2" GUID="{F1E19395-870B-40ED-9303-0392E5F750AE}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="2511424613" Name="Play_TwoHandedSword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_RunAttack" GUID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="3306336597" Name="Play_TwoHandedSword_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Sheath" GUID="{9CF382EF-A489-4FD6-BAA1-0AEA00F66D01}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
 				<Event Id="3612828199" Name="Play_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_SpecialAttack" GUID="{D85BA391-608A-4998-A814-7AC74879849D}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
-				<Event Id="1826018124" Name="Play_TwoHandedSword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Unsheath" GUID="{AB172011-090C-4424-B7F2-5E94B575746F}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
+				<Event Id="1826018124" Name="Play_TwoHandedSword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Unsheath" GUID="{AB172011-090C-4424-B7F2-5E94B575746F}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="194921656" Name="Play_UnarmedAttack" ObjectPath="\Events\Default Work Unit\Play_UnarmedAttack" GUID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="157213476" Name="Play_WeaponImpact" ObjectPath="\Events\Default Work Unit\Play_WeaponImpact" GUID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}" DurationType="OneShot" DurationMin="0.436803" DurationMax="1.786979"/>
 				<Event Id="2732819635" Name="Stop_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_Sword_SpecialAttack" GUID="{0A219350-8CB7-45C8-B7A6-27D098BCB6AD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -56,215 +56,299 @@
 			<IncludedMemoryFiles>
 				<File Id="101433" Language="SFX">
 					<ShortName>axe impact.wav</ShortName>
-					<Path>SFX\axe impact_10C4C929.wem</Path>
+					<Path>SFX\axe impact_D646DBB5.wem</Path>
 				</File>
 				<File Id="5381343" Language="SFX">
 					<ShortName>UnSheath Test.wav</ShortName>
-					<Path>SFX\UnSheath Test_10C4C929.wem</Path>
+					<Path>SFX\UnSheath Test_76EFFE6B.wem</Path>
+				</File>
+				<File Id="21048854" Language="SFX">
+					<ShortName>onAttack_05.wav</ShortName>
+					<Path>SFX\onAttack_05_D646DBB5.wem</Path>
+				</File>
+				<File Id="51475221" Language="SFX">
+					<ShortName>doubleAttack_03.wav</ShortName>
+					<Path>SFX\doubleAttack_03_D646DBB5.wem</Path>
+				</File>
+				<File Id="52460899" Language="SFX">
+					<ShortName>onAttack_01.wav</ShortName>
+					<Path>SFX\onAttack_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="56885126" Language="SFX">
 					<ShortName>Death_03.wav</ShortName>
-					<Path>SFX\Death_03_10C4C929.wem</Path>
+					<Path>SFX\Death_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="56939043" Language="SFX">
 					<ShortName>Revive_01.wav</ShortName>
-					<Path>SFX\Revive_01_10C4C929.wem</Path>
+					<Path>SFX\Revive_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="62138177" Language="SFX">
 					<ShortName>SwordSpecial_test_01.wav</ShortName>
-					<Path>SFX\SwordSpecial_test_01_7285F755.wem</Path>
+					<Path>SFX\SwordSpecial_test_01_6156AF21.wem</Path>
 				</File>
 				<File Id="64324210" Language="SFX">
 					<ShortName>Death_02.wav</ShortName>
-					<Path>SFX\Death_02_10C4C929.wem</Path>
+					<Path>SFX\Death_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="64930834" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_06.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_06_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_06_D646DBB5.wem</Path>
 				</File>
 				<File Id="92793222" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_04.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_04_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_04_D646DBB5.wem</Path>
 				</File>
 				<File Id="94216977" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_03.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_03_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="120656921" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_01.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_01_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="177517851" Language="SFX">
 					<ShortName>SFX_Knight_Equipment_Light.wav</ShortName>
-					<Path>SFX\SFX_Knight_Equipment_Light_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Equipment_Light_D646DBB5.wem</Path>
 				</File>
 				<File Id="209092106" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_02.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_02_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_02_D646DBB5.wem</Path>
+				</File>
+				<File Id="209711547" Language="SFX">
+					<ShortName>lightBreath_03.wav</ShortName>
+					<Path>SFX\lightBreath_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="221487555" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_04.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_04_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_04_D646DBB5.wem</Path>
 				</File>
 				<File Id="248042998" Language="SFX">
 					<ShortName>SWORD Hit Metal 02.wav</ShortName>
-					<Path>SFX\SWORD Hit Metal 02_10C4C929.wem</Path>
+					<Path>SFX\SWORD Hit Metal 02_D646DBB5.wem</Path>
+				</File>
+				<File Id="252999678" Language="SFX">
+					<ShortName>mediumBreath_01.wav</ShortName>
+					<Path>SFX\mediumBreath_01_D646DBB5.wem</Path>
+				</File>
+				<File Id="270683814" Language="SFX">
+					<ShortName>lightGrunt_01.wav</ShortName>
+					<Path>SFX\lightGrunt_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="281963176" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_03.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_03_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="368845017" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_05.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_05_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_05_D646DBB5.wem</Path>
+				</File>
+				<File Id="397851625" Language="SFX">
+					<ShortName>onHit_01.wav</ShortName>
+					<Path>SFX\onHit_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="409255162" Language="SFX">
 					<ShortName>Hand-to-Hand Combat - Body Hits - Deep Punch 02.wav</ShortName>
-					<Path>SFX\Hand-to-Hand Combat - Body Hits - Deep Punch 02_10C4C929.wem</Path>
+					<Path>SFX\Hand-to-Hand Combat - Body Hits - Deep Punch 02_D646DBB5.wem</Path>
 				</File>
 				<File Id="412809658" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6_D646DBB5.wem</Path>
 				</File>
 				<File Id="442206835" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_03.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_03_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="473930126" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_05.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_05_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_05_D646DBB5.wem</Path>
 				</File>
 				<File Id="490465389" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4_D646DBB5.wem</Path>
+				</File>
+				<File Id="508029534" Language="SFX">
+					<ShortName>lightGrunt_02.wav</ShortName>
+					<Path>SFX\lightGrunt_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="517479223" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5_D646DBB5.wem</Path>
+				</File>
+				<File Id="524352400" Language="SFX">
+					<ShortName>lightBreath_01.wav</ShortName>
+					<Path>SFX\lightBreath_01_D646DBB5.wem</Path>
+				</File>
+				<File Id="542470581" Language="SFX">
+					<ShortName>onAttack_04.wav</ShortName>
+					<Path>SFX\onAttack_04_D646DBB5.wem</Path>
 				</File>
 				<File Id="543577912" Language="SFX">
 					<ShortName>Revive_03.wav</ShortName>
-					<Path>SFX\Revive_03_10C4C929.wem</Path>
+					<Path>SFX\Revive_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="566200977" Language="SFX">
 					<ShortName>Footsteps_Grass_Slow_01.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Slow_01_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Slow_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="575308489" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2_D646DBB5.wem</Path>
 				</File>
 				<File Id="592620106" Language="SFX">
 					<ShortName>Weapon Impacts_sword-clash-1-6917.wav</ShortName>
-					<Path>SFX\Weapon Impacts_sword-clash-1-6917_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_sword-clash-1-6917_D646DBB5.wem</Path>
 				</File>
 				<File Id="618712806" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7_D646DBB5.wem</Path>
 				</File>
 				<File Id="626591909" Language="SFX">
 					<ShortName>IMPACT METAL Short Slam_03.wav</ShortName>
-					<Path>SFX\IMPACT METAL Short Slam_03_10C4C929.wem</Path>
+					<Path>SFX\IMPACT METAL Short Slam_03_D646DBB5.wem</Path>
+				</File>
+				<File Id="632493094" Language="SFX">
+					<ShortName>lightBreath_02.wav</ShortName>
+					<Path>SFX\lightBreath_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="646155195" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_02.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_02_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="650348452" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_05.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_05_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_05_D646DBB5.wem</Path>
 				</File>
 				<File Id="672521728" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_LightSwing_Master.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_LightSwing_Master_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_LightSwing_Master_D646DBB5.wem</Path>
+				</File>
+				<File Id="684847413" Language="SFX">
+					<ShortName>onHit_bonus_01.wav</ShortName>
+					<Path>SFX\onHit_bonus_01_D646DBB5.wem</Path>
+				</File>
+				<File Id="688914136" Language="SFX">
+					<ShortName>mediumBreath_02.wav</ShortName>
+					<Path>SFX\mediumBreath_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="718136426" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_07.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_07_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_07_D646DBB5.wem</Path>
+				</File>
+				<File Id="718510231" Language="SFX">
+					<ShortName>doubleAttack_02.wav</ShortName>
+					<Path>SFX\doubleAttack_02_D646DBB5.wem</Path>
+				</File>
+				<File Id="728703031" Language="SFX">
+					<ShortName>onAttack_03.wav</ShortName>
+					<Path>SFX\onAttack_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="735845571" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_07.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_07_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_07_D646DBB5.wem</Path>
 				</File>
 				<File Id="737651998" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_08.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_08_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_08_D646DBB5.wem</Path>
 				</File>
 				<File Id="767431269" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_01.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_01_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_01_D646DBB5.wem</Path>
+				</File>
+				<File Id="769743844" Language="SFX">
+					<ShortName>onAttack_06.wav</ShortName>
+					<Path>SFX\onAttack_06_D646DBB5.wem</Path>
 				</File>
 				<File Id="771088221" Language="SFX">
 					<ShortName>Death_01.wav</ShortName>
-					<Path>SFX\Death_01_10C4C929.wem</Path>
+					<Path>SFX\Death_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="774273311" Language="SFX">
 					<ShortName>Footsteps_Grass_Fast_03.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Fast_03_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Fast_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="782869883" Language="SFX">
 					<ShortName>Footsteps_Grass_Slow_03.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Slow_03_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Slow_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="788169728" Language="SFX">
 					<ShortName>clean-fast-swooshaiff-14784.wav</ShortName>
-					<Path>SFX\clean-fast-swooshaiff-14784_10C4C929.wem</Path>
+					<Path>SFX\clean-fast-swooshaiff-14784_D646DBB5.wem</Path>
 				</File>
 				<File Id="792919151" Language="SFX">
 					<ShortName>Footsteps_Grass_Fast_02.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Fast_02_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Fast_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="810207798" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689_D646DBB5.wem</Path>
+				</File>
+				<File Id="829409516" Language="SFX">
+					<ShortName>onAttack_02.wav</ShortName>
+					<Path>SFX\onAttack_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="847812544" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_02.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_02_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="851392326" Language="SFX">
 					<ShortName>sword impact.wav</ShortName>
-					<Path>SFX\sword impact_10C4C929.wem</Path>
+					<Path>SFX\sword impact_D646DBB5.wem</Path>
 				</File>
 				<File Id="852897142" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_06.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_06_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_06_D646DBB5.wem</Path>
+				</File>
+				<File Id="857876283" Language="SFX">
+					<ShortName>mediumBreath_03.wav</ShortName>
+					<Path>SFX\mediumBreath_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="869912512" Language="SFX">
 					<ShortName>Footsteps_Grass_Slow_02.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Slow_02_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Slow_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="888458374" Language="SFX">
 					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3.wav</ShortName>
-					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3_10C4C929.wem</Path>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3_D646DBB5.wem</Path>
 				</File>
 				<File Id="890596365" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_06.wav</ShortName>
-					<Path>SFX\SFX_Knight_OnAttack_Sword_06_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_OnAttack_Sword_06_D646DBB5.wem</Path>
+				</File>
+				<File Id="891479999" Language="SFX">
+					<ShortName>onHit_bonus_02.wav</ShortName>
+					<Path>SFX\onHit_bonus_02_D646DBB5.wem</Path>
 				</File>
 				<File Id="918007374" Language="SFX">
 					<ShortName>Footsteps_Grass_Fast_01.wav</ShortName>
-					<Path>SFX\Footsteps_Grass_Fast_01_10C4C929.wem</Path>
+					<Path>SFX\Footsteps_Grass_Fast_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="924380445" Language="SFX">
 					<ShortName>foley_object_grab_pickup_04.wav</ShortName>
-					<Path>SFX\foley_object_grab_pickup_04_10C4C929.wem</Path>
+					<Path>SFX\foley_object_grab_pickup_04_D646DBB5.wem</Path>
+				</File>
+				<File Id="964585421" Language="SFX">
+					<ShortName>doubleAttack_01.wav</ShortName>
+					<Path>SFX\doubleAttack_01_D646DBB5.wem</Path>
 				</File>
 				<File Id="966829273" Language="SFX">
 					<ShortName>foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_08.wav</ShortName>
-					<Path>SFX\foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_08_10C4C929.wem</Path>
+					<Path>SFX\foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_08_D646DBB5.wem</Path>
+				</File>
+				<File Id="968031171" Language="SFX">
+					<ShortName>lightGrunt_03.wav</ShortName>
+					<Path>SFX\lightGrunt_03_D646DBB5.wem</Path>
 				</File>
 				<File Id="1011997357" Language="SFX">
 					<ShortName>Sword Slide Swish.wav</ShortName>
-					<Path>SFX\Sword Slide Swish_10C4C929.wem</Path>
+					<Path>SFX\Sword Slide Swish_D646DBB5.wem</Path>
 				</File>
 				<File Id="1032981007" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_04.wav</ShortName>
-					<Path>SFX\SFX_Knight_Armour_OnMove_04_10C4C929.wem</Path>
+					<Path>SFX\SFX_Knight_Armour_OnMove_04_D646DBB5.wem</Path>
 				</File>
 				<File Id="1044618530" Language="SFX">
 					<ShortName>Revive_02.wav</ShortName>
-					<Path>SFX\Revive_02_10C4C929.wem</Path>
+					<Path>SFX\Revive_02_D646DBB5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

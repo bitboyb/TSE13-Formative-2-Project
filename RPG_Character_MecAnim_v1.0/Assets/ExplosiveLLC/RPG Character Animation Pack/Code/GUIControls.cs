@@ -94,6 +94,7 @@ namespace RPGCharacterAnims
 							if(useSprint)
 							{
 								rpgCharacterMovementController.isSprinting = true;
+								AkSoundEngine.SetSwitch("Player_Movement", "Running", gameObject.transform.GetChild(0).gameObject);
 							}
 							else
 							{
