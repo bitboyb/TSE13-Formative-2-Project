@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+							<ObjectRef Name="AB_Knight" ID="{C7F5CAA2-FDA0-469C-9B08-BEDA3B28ECC9}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -21,13 +21,14 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+									<ObjectRef Name="AB_Knight_Movement" ID="{CB96F42E-953B-43A8-8802-3A80C7CD852D}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -323,406 +324,6 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-									</ChildrenList>
-								</ActorMixer>
-								<ActorMixer Name="AM_Knight_Movement_Vocalisation" ID="{AA1655A9-1F18-40AD-8561-DAEF46547CC3}" ShortID="998679315">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SwitchContainer Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" ShortID="594020447">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Player_AttackType" ID="{BD578AD4-4151-472C-9C3D-F88693D993CE}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Normal" ID="{9CCA8F7A-0F2F-48A2-8305-1C59D6EBAEA8}" ShortID="167655128">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_01" ID="{4A12212D-CFD0-4B1C-B40D-9B96656AEC2E}" ShortID="318054511">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_02" ID="{D2C930D2-29B6-4A4F-8DEA-36022B280B96}" ShortID="72769034">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_03" ID="{8858261A-D36A-4AB5-AEA4-ADCD2160DACF}" ShortID="680037625">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}" ShortID="610459056">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_01" ID="{8111D1BD-B75C-4CAF-BE69-67D07BC3EA0E}" ShortID="496431757">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_02" ID="{82B32724-41AE-403A-9A7E-A4DEE3B684BF}" ShortID="450795913">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_03" ID="{F8D5CAD9-38FB-4508-B77D-B0116E680AEF}" ShortID="173470065">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Special" ID="{757CC632-102F-4CF3-8427-138A73C7E4EE}" ShortID="269526801">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_01" ID="{382E6FD9-B596-4883-84CC-98705ED31A70}" ShortID="153207185">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_02" ID="{BD6DC36E-A5F0-48EA-B9F4-2F9102C88A37}" ShortID="211638073">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_03" ID="{1960998B-DCE3-4133-8CF0-ABA410F05329}" ShortID="607325363">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Special" ID="{757CC632-102F-4CF3-8427-138A73C7E4EE}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Normal" ID="{9CCA8F7A-0F2F-48A2-8305-1C59D6EBAEA8}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-											</GroupingInfo>
-										</SwitchContainer>
-										<SwitchContainer Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" ShortID="389709619">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Player_Movement" ID="{5D3066F4-2131-49CA-8D6E-CE1CD2666C40}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}" ShortID="542134144">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_01" ID="{A2C28701-DA54-40C1-9B99-519F95C33134}" ShortID="1033883380">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_02" ID="{499A28D6-D630-4865-A8F3-85307378E6F6}" ShortID="932725001">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_03" ID="{30F509F3-80BC-43D6-A398-E2920AD56192}" ShortID="913440814">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}" ShortID="193917059">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_01" ID="{7AB09DB1-4E63-4E4A-A7C1-60D232F9BB9A}" ShortID="173824539">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_02" ID="{1F5F1BFE-936E-4DAF-B285-916D273D9222}" ShortID="1028701613">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_03" ID="{B073A327-3564-4471-A883-3DA555D77B9E}" ShortID="827324827">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}" ShortID="54021786">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_01" ID="{42EADCFA-4499-4C1C-89A5-8A448C601C98}" ShortID="473391443">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_02" ID="{46DD7381-3A60-4636-B4A2-643472D4F8F3}" ShortID="850218575">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-														<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_03" ID="{3ED1ED3C-5F65-4FD1-9E13-55678CBD8C1B}" ShortID="146897220">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-																</Reference>
-															</ReferenceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-												<GroupingList>
-													<Grouping>
-														<SwitchRef Name="DoubleJump" ID="{0C66C70E-8B1B-4BC3-9731-BCEC47824855}"/>
-														<ItemList>
-															<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Jump" ID="{BC684111-0B68-45F4-88C5-D3BDBEA8C420}"/>
-														<ItemList>
-															<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}"/>
-														<ItemList>
-															<ItemRef Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Running" ID="{044F58A4-81AD-4F29-99E7-BE4C769C4838}"/>
-														<ItemList>
-															<ItemRef Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Roll" ID="{9DE50FCC-7F07-46E9-B807-F68F1E43213C}"/>
-														<ItemList>
-															<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
-														</ItemList>
-													</Grouping>
-												</GroupingList>
-											</GroupingInfo>
-										</SwitchContainer>
-										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnHit" ID="{F80857B1-6471-42ED-BF30-4C613004E0E0}" ShortID="415260679">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_Knight_Vocalisation_OnHit_01" ID="{0196379E-57C9-4E0C-AA91-35F30D5E3842}" ShortID="842622852">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-												</Sound>
-												<Sound Name="SFX_Knight_Vocalisation_OnHit_02" ID="{A07D65C9-E750-4D2E-8958-1AB829F9DF26}" ShortID="880907006">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-												</Sound>
-												<Sound Name="SFX_Knight_Vocalisation_OnHit_03" ID="{D7A20BFB-3EDA-43F1-B47D-1C496AD9AB58}" ShortID="737985484">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
-														</Reference>
-													</ReferenceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="AM_Knight_Movement_Equipment" ID="{A0FF3ADB-CE4F-40B8-A450-6A68B755A84D}" ShortID="55038586">
@@ -1253,13 +854,14 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+									<ObjectRef Name="AB_Knight_Attack" ID="{12FC2666-5537-4FCC-A10A-41068D269398}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2301,7 +1903,45 @@
 														</Reference>
 													</ReferenceList>
 												</Sound>
-												<Sound Name="SFX_Knight_OnAttack_Special_2HSword" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}" ShortID="373585301">
+												<Sound Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}" ShortID="373585301">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SwordSpecial_test_01" ID="{03F72E3F-904D-4FD5-BCF6-DC55D234E4CD}" ShortID="62138177">
+															<PropertyList>
+																<Property Name="CrossfadeDuration" Type="Real64" Value="2447.372"/>
+																<Property Name="LoopBegin" Type="Real64" Value="4.00763964618926"/>
+																<Property Name="LoopEnd" Type="Real64" Value="25.820649720448"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SwordSpecial_test_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SwordSpecial_test_01" ID="{03F72E3F-904D-4FD5-BCF6-DC55D234E4CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}" ShortID="667401031">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2315,23 +1955,28 @@
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
+														<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="SFX_Knight_OnAttack_Special_2HAxe" ID="{58A03CA9-0080-4C4E-A452-9D1B9FF5CAB8}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="TwoHandSword" ID="{A01FF01C-C8CF-4DF3-8AF6-204DD1E32399}"/>
 														<ItemList>
-															<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
+															<ItemRef Name="SFX_Knight_OnAttack_Special_2HSword" ID="{C3B4FDB0-6C67-48D9-8F7F-7E0FB00FA198}"/>
+															<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="TwoHandAxe" ID="{EBE4167A-8972-4D54-9E31-DBB6B61E542B}"/>
 														<ItemList>
 															<ItemRef Name="SFX_Knight_OnAttack_Special_2HAxe" ID="{58A03CA9-0080-4C4E-A452-9D1B9FF5CAB8}"/>
+															<ItemRef Name="SFX_Knight_OnAttack_Special_Wind" ID="{8C05572E-E7E5-4826-B8CE-063FC9953680}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
@@ -2465,31 +2110,38 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
-						<ActorMixer Name="AM_Knight_Special" ID="{C011E51C-86B7-4DDA-A64C-97ACE257502C}" ShortID="664179484">
+						<ActorMixer Name="AM_Knight_Vocalisation" ID="{AA1655A9-1F18-40AD-8561-DAEF46547CC3}" ShortID="998679315">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="Color" Type="int16" Value="14"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+									<ObjectRef Name="AB_Knight_Vocalisation" ID="{D5F6DB2D-C0F3-43CB-BA5E-290CBA6DF61F}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="RC_Knight_OnDeath" ID="{32CD6547-194D-471D-98EB-8AE929397858}" ShortID="489347065">
+								<SwitchContainer Name="SC_Knight_Vocalisation_OnSwing" ID="{1C5E8148-8721-4EA9-A0E1-0E9258EB47AA}" ShortID="594020447">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Player_AttackType" ID="{BD578AD4-4151-472C-9C3D-F88693D993CE}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_Knight_OnDeath_01" ID="{244D3E33-6CD4-4AB6-BF2F-1EE5D015EDC8}" ShortID="933635862">
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Normal" ID="{9CCA8F7A-0F2F-48A2-8305-1C59D6EBAEA8}" ShortID="167655128">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2499,16 +2151,39 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Death_01" ID="{C8DE95A5-F94E-4759-982D-C9E32FFFEFC8}" ShortID="771088221">
-													<Language>SFX</Language>
-													<AudioFile>Death_01.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_01" ID="{4A12212D-CFD0-4B1C-B40D-9B96656AEC2E}" ShortID="318054511">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_02" ID="{D2C930D2-29B6-4A4F-8DEA-36022B280B96}" ShortID="72769034">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Normal_03" ID="{8858261A-D36A-4AB5-AEA4-ADCD2160DACF}" ShortID="680037625">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Death_01" ID="{C8DE95A5-F94E-4759-982D-C9E32FFFEFC8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Knight_OnDeath_02" ID="{3F558DF3-50CC-484F-AD76-6549F614CD12}" ShortID="162418237">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}" ShortID="610459056">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2518,16 +2193,39 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Death_02" ID="{D6FE6EC4-F06A-4D59-9DB4-BB4166D5A762}" ShortID="64324210">
-													<Language>SFX</Language>
-													<AudioFile>Death_02.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_01" ID="{8111D1BD-B75C-4CAF-BE69-67D07BC3EA0E}" ShortID="496431757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_02" ID="{82B32724-41AE-403A-9A7E-A4DEE3B684BF}" ShortID="450795913">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Running_03" ID="{F8D5CAD9-38FB-4508-B77D-B0116E680AEF}" ShortID="173470065">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Death_02" ID="{D6FE6EC4-F06A-4D59-9DB4-BB4166D5A762}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Knight_OnDeath_03" ID="{AAEC4782-618A-41C7-9E14-26BDEB0982D4}" ShortID="1051249630">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnSwing_Special" ID="{757CC632-102F-4CF3-8427-138A73C7E4EE}" ShortID="269526801">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2537,18 +2235,243 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Death_03" ID="{E434A8C8-47DD-4E6C-B68E-22D8024B67EA}" ShortID="56885126">
-													<Language>SFX</Language>
-													<AudioFile>Death_03.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_01" ID="{382E6FD9-B596-4883-84CC-98705ED31A70}" ShortID="153207185">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_02" ID="{BD6DC36E-A5F0-48EA-B9F4-2F9102C88A37}" ShortID="211638073">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnSwing_Special_03" ID="{1960998B-DCE3-4133-8CF0-ABA410F05329}" ShortID="607325363">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Death_03" ID="{E434A8C8-47DD-4E6C-B68E-22D8024B67EA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="RC_Knight_OnRevive" ID="{7FB3DB78-5BC6-4A8B-A901-CDB77DAA1C36}" ShortID="793825798">
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Special" ID="{757CC632-102F-4CF3-8427-138A73C7E4EE}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Normal" ID="{9CCA8F7A-0F2F-48A2-8305-1C59D6EBAEA8}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnSwing_Running" ID="{78CE5C8B-F002-4513-8CEA-C732DEB8582B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="SC_Knight_Vocalistion_OnMove" ID="{7EEEF12C-0C0D-4736-ABC0-64ECBFB98C1E}" ShortID="389709619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Player_Movement" ID="{5D3066F4-2131-49CA-8D6E-CE1CD2666C40}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}" ShortID="542134144">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_01" ID="{A2C28701-DA54-40C1-9B99-519F95C33134}" ShortID="1033883380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_02" ID="{499A28D6-D630-4865-A8F3-85307378E6F6}" ShortID="932725001">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Normal_03" ID="{30F509F3-80BC-43D6-A398-E2920AD56192}" ShortID="913440814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}" ShortID="193917059">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_01" ID="{7AB09DB1-4E63-4E4A-A7C1-60D232F9BB9A}" ShortID="173824539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_02" ID="{1F5F1BFE-936E-4DAF-B285-916D273D9222}" ShortID="1028701613">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_HeavyMovement_03" ID="{B073A327-3564-4471-A883-3DA555D77B9E}" ShortID="827324827">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}" ShortID="54021786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_01" ID="{42EADCFA-4499-4C1C-89A5-8A448C601C98}" ShortID="473391443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_02" ID="{46DD7381-3A60-4636-B4A2-643472D4F8F3}" ShortID="850218575">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+												<Sound Name="SFX_Knight_Vocalisation_OnMove_Running_03" ID="{3ED1ED3C-5F65-4FD1-9E13-55678CBD8C1B}" ShortID="146897220">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+														</Reference>
+													</ReferenceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="DoubleJump" ID="{0C66C70E-8B1B-4BC3-9731-BCEC47824855}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Jump" ID="{BC684111-0B68-45F4-88C5-D3BDBEA8C420}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Normal" ID="{74972C65-E25A-4C66-ABEE-33B0A14911C9}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnMove_Normal" ID="{BF2F0E89-AFE3-4EDB-AFFB-B5A1E1513090}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Running" ID="{044F58A4-81AD-4F29-99E7-BE4C769C4838}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnMove_Running" ID="{1AB3C7BB-94C2-4835-A450-0A04C6F11A4C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Roll" ID="{9DE50FCC-7F07-46E9-B807-F68F1E43213C}"/>
+												<ItemList>
+													<ItemRef Name="RC_Knight_Vocalisation_OnMove_HeavyMovement" ID="{697508A7-E3EC-4E00-B6A5-55320234DB52}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="RC_Knight_Vocalisation_OnHit" ID="{F80857B1-6471-42ED-BF30-4C613004E0E0}" ShortID="415260679">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2558,7 +2481,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_Knight_OnRevive_01" ID="{FF6C19A2-1E9A-4EBD-B9FC-B0A3893DD115}" ShortID="863640109">
+										<Sound Name="SFX_Knight_Vocalisation_OnHit_01" ID="{0196379E-57C9-4E0C-AA91-35F30D5E3842}" ShortID="842622852">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2567,17 +2490,8 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Revive_01" ID="{C205DBD8-160F-412B-BB08-509DB9AE1042}" ShortID="56939043">
-													<Language>SFX</Language>
-													<AudioFile>Revive_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Revive_01" ID="{C205DBD8-160F-412B-BB08-509DB9AE1042}" Platform="Linked"/>
-											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Knight_OnRevive_02" ID="{3BDB91EA-8480-48E8-9EF1-A926F78E1D44}" ShortID="457232737">
+										<Sound Name="SFX_Knight_Vocalisation_OnHit_02" ID="{A07D65C9-E750-4D2E-8958-1AB829F9DF26}" ShortID="880907006">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2586,17 +2500,8 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Revive_02" ID="{B2E2C815-15D5-49C9-B409-532A2E8CD502}" ShortID="1044618530">
-													<Language>SFX</Language>
-													<AudioFile>Revive_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Revive_02" ID="{B2E2C815-15D5-49C9-B409-532A2E8CD502}" Platform="Linked"/>
-											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Knight_OnRevive_03" ID="{08CAB8F1-26EC-4460-A995-A74679FAE0EB}" ShortID="905996721">
+										<Sound Name="SFX_Knight_Vocalisation_OnHit_03" ID="{D7A20BFB-3EDA-43F1-B47D-1C496AD9AB58}" ShortID="737985484">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2605,15 +2510,6 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Revive_03" ID="{1642BE90-2799-404A-A626-ED3BFF96FAEC}" ShortID="543577912">
-													<Language>SFX</Language>
-													<AudioFile>Revive_03.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Revive_03" ID="{1642BE90-2799-404A-A626-ED3BFF96FAEC}" Platform="Linked"/>
-											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
@@ -2631,12 +2527,13 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+							<ObjectRef Name="AB_Impacts" ID="{2D9F26B4-BC42-4338-B07C-2DCFA899E671}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="SC_Impacts_OnCollison" ID="{4B105832-4576-46BC-BD89-2C06F3E62F4A}" ShortID="310074493">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2663,7 +2560,7 @@
 									<ObjectRef Name="Stone" ID="{CA07DA2D-5FE2-4656-A778-011EC31B8831}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+									<ObjectRef Name="AB_Impacts_OnCollision" ID="{A5A1AA2D-6D0B-4B7A-BC84-B90C040BF925}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="Impact_Material" ID="{2D3DBCF7-FB4D-4891-A6CD-01F969F848F2}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
@@ -2671,6 +2568,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="SFX_Impacts_OnCollision_Armour" ID="{F69984D0-622D-423F-BDC5-8A4AA983E7A4}" ShortID="399621424">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2690,6 +2594,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="RC_Impacts_OnCollision_Stone" ID="{4D37C6B1-F108-4A66-AE7B-9A25B98E68A5}" ShortID="709007269">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
@@ -2718,11 +2629,190 @@
 												<ActiveSource Name="SWORD Hit Metal 02" ID="{214B990F-1677-4E73-82D0-39A3A4E9114F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Stone_02" ID="{222168F9-D436-45FC-B665-24391E2FED29}" ShortID="121593380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_sword-clash-1-6917" ID="{9E8192A7-C30C-46E6-87BA-8A12E4A53C00}" ShortID="592620106">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_sword-clash-1-6917.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_sword-clash-1-6917" ID="{9E8192A7-C30C-46E6-87BA-8A12E4A53C00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RC_Impacts_OnCollision_Generic" ID="{EA7CA619-BDC9-4549-99B8-32F258D36170}" ShortID="271976716">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-200</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_02" ID="{8071C909-B7B6-4CBF-BC10-292BBE521E84}" ShortID="430792573">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2" ID="{872B56F0-27E3-46F1-A20E-8F688EBC374F}" ShortID="575308489">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2" ID="{872B56F0-27E3-46F1-A20E-8F688EBC374F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_03" ID="{7A91A48C-93F0-4F74-BC4E-05D603B9CCE7}" ShortID="975441042">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3" ID="{040D6A93-5F59-4BFC-8D92-DE174092BFE4}" ShortID="888458374">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3" ID="{040D6A93-5F59-4BFC-8D92-DE174092BFE4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_04" ID="{F7685467-594F-44D7-8A66-6F279C37E2FC}" ShortID="753234551">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4" ID="{953CDEA2-1AFB-467D-8846-5604E1D709F1}" ShortID="490465389">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4" ID="{953CDEA2-1AFB-467D-8846-5604E1D709F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_05" ID="{3B162CBB-5B5E-4516-9A82-8CA4C65DE52C}" ShortID="310408282">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5" ID="{7E0EB61B-7C77-4CEB-B2AF-CF2B847A5993}" ShortID="517479223">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5" ID="{7E0EB61B-7C77-4CEB-B2AF-CF2B847A5993}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_06" ID="{48EEDFF0-F9CF-4592-8402-A13A216BA661}" ShortID="28106020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6" ID="{73EFC6A0-F386-4B52-A48F-8D49B5BED14D}" ShortID="412809658">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6" ID="{73EFC6A0-F386-4B52-A48F-8D49B5BED14D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_07" ID="{7B1A3185-32AD-455B-BC11-BFA22A214573}" ShortID="366228488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7" ID="{794ADDBD-E801-48E6-8FB9-2A3F038F472D}" ShortID="618712806">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7" ID="{794ADDBD-E801-48E6-8FB9-2A3F038F472D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Impacts_OnCollision_Generic_01" ID="{A0EAFC9B-21E2-40DE-8F6E-9CD947BB9535}" ShortID="883883121">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689" ID="{48143B06-9463-4FFB-ABA4-B715C9D5A8CE}" ShortID="810207798">
+													<Language>SFX</Language>
+													<AudioFile>Weapon Impacts_blade-on-wood-metal-clank-tink-63689.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon Impacts_blade-on-wood-metal-clank-tink-63689" ID="{48143B06-9463-4FFB-ABA4-B715C9D5A8CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RC_Impacts_OnCollision_Generic" ID="{EA7CA619-BDC9-4549-99B8-32F258D36170}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="RC_Impacts_OnCollision_Stone" ID="{4D37C6B1-F108-4A66-AE7B-9A25B98E68A5}"/>
 									</GroupingBehavior>
@@ -2734,12 +2824,14 @@
 									<Grouping>
 										<SwitchRef Name="Stone" ID="{CA07DA2D-5FE2-4656-A778-011EC31B8831}"/>
 										<ItemList>
+											<ItemRef Name="RC_Impacts_OnCollision_Generic" ID="{EA7CA619-BDC9-4549-99B8-32F258D36170}"/>
 											<ItemRef Name="RC_Impacts_OnCollision_Stone" ID="{4D37C6B1-F108-4A66-AE7B-9A25B98E68A5}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Armour" ID="{6B60A2EB-0555-4D72-A72F-337102AC1698}"/>
 										<ItemList>
+											<ItemRef Name="RC_Impacts_OnCollision_Generic" ID="{EA7CA619-BDC9-4549-99B8-32F258D36170}"/>
 											<ItemRef Name="SFX_Impacts_OnCollision_Armour" ID="{F69984D0-622D-423F-BDC5-8A4AA983E7A4}"/>
 										</ItemList>
 									</Grouping>
@@ -2747,12 +2839,32 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="SC_Impacts_Weapons" ID="{39F3D819-DD86-44F7-A595-93E33F25EC72}" ShortID="715662875">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{18A82208-4C62-4239-B4B8-550311ED3FE6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+									<ObjectRef Name="AB_Impacts_Weapons" ID="{2E646693-8B2B-47CA-9E9C-7AB6F4E60D05}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="Player_Weapon" ID="{4915DB5F-F01D-4A53-A126-C114518F1111}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
@@ -2889,6 +3001,177 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AM_UI" ID="{20D8BC1F-809D-49A2-B793-2A42AA787FD8}" ShortID="260061320">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AB_UI" ID="{BE0DDCA9-7D99-41A4-B699-1E0E7499C7F2}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="AM_UI_Health" ID="{C011E51C-86B7-4DDA-A64C-97ACE257502C}" ShortID="664179484">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AB_UI" ID="{BE0DDCA9-7D99-41A4-B699-1E0E7499C7F2}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="RC_UI_Health_OnDeath" ID="{32CD6547-194D-471D-98EB-8AE929397858}" ShortID="489347065">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Knight_OnDeath_01" ID="{244D3E33-6CD4-4AB6-BF2F-1EE5D015EDC8}" ShortID="933635862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Death_01" ID="{C8DE95A5-F94E-4759-982D-C9E32FFFEFC8}" ShortID="771088221">
+													<Language>SFX</Language>
+													<AudioFile>Death_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Death_01" ID="{C8DE95A5-F94E-4759-982D-C9E32FFFEFC8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Knight_OnDeath_02" ID="{3F558DF3-50CC-484F-AD76-6549F614CD12}" ShortID="162418237">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Death_02" ID="{D6FE6EC4-F06A-4D59-9DB4-BB4166D5A762}" ShortID="64324210">
+													<Language>SFX</Language>
+													<AudioFile>Death_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Death_02" ID="{D6FE6EC4-F06A-4D59-9DB4-BB4166D5A762}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Knight_OnDeath_03" ID="{AAEC4782-618A-41C7-9E14-26BDEB0982D4}" ShortID="1051249630">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Death_03" ID="{E434A8C8-47DD-4E6C-B68E-22D8024B67EA}" ShortID="56885126">
+													<Language>SFX</Language>
+													<AudioFile>Death_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Death_03" ID="{E434A8C8-47DD-4E6C-B68E-22D8024B67EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RC_UI_Health_OnRevive" ID="{7FB3DB78-5BC6-4A8B-A901-CDB77DAA1C36}" ShortID="793825798">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Knight_OnRevive_01" ID="{FF6C19A2-1E9A-4EBD-B9FC-B0A3893DD115}" ShortID="863640109">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Revive_01" ID="{C205DBD8-160F-412B-BB08-509DB9AE1042}" ShortID="56939043">
+													<Language>SFX</Language>
+													<AudioFile>Revive_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Revive_01" ID="{C205DBD8-160F-412B-BB08-509DB9AE1042}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Knight_OnRevive_02" ID="{3BDB91EA-8480-48E8-9EF1-A926F78E1D44}" ShortID="457232737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Revive_02" ID="{B2E2C815-15D5-49C9-B409-532A2E8CD502}" ShortID="1044618530">
+													<Language>SFX</Language>
+													<AudioFile>Revive_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Revive_02" ID="{B2E2C815-15D5-49C9-B409-532A2E8CD502}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Knight_OnRevive_03" ID="{08CAB8F1-26EC-4460-A995-A74679FAE0EB}" ShortID="905996721">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A785EE4-3EE7-428D-A182-88CBF28A79E5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56D45E80-9FE1-4D19-A272-AFE52AFDDC6D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Revive_03" ID="{1642BE90-2799-404A-A626-ED3BFF96FAEC}" ShortID="543577912">
+													<Language>SFX</Language>
+													<AudioFile>Revive_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Revive_03" ID="{1642BE90-2799-404A-A626-ED3BFF96FAEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

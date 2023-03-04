@@ -3,8 +3,8 @@
 	<Platform GUID="{AAB631F5-B153-49D7-8F83-59F602013D4E}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2279659568" Timestamp="1677845751"/>
-				<File Name="Master_SoundBank" Hash="2822189907" Timestamp="1677855921"/>
+				<File Name="Init" Hash="806392641" Timestamp="1677921905"/>
+				<File Name="Master_SoundBank" Hash="2684540411" Timestamp="1677921905"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -13,7 +13,7 @@
 				<File Name="Master_SoundBank" Hash="4249665513" Timestamp="1598611994"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1615110727" Timestamp="1677855921"/>
+				<File Name="" Hash="2137097912" Timestamp="1677921905"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
@@ -29,8 +29,8 @@
 	<Platform GUID="{AA335009-5001-4CD6-947D-824975BB00BD}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1182415902" Timestamp="1677845751"/>
-				<File Name="Master_SoundBank" Hash="2822189907" Timestamp="1677855921"/>
+				<File Name="Init" Hash="3287582019" Timestamp="1677921905"/>
+				<File Name="Master_SoundBank" Hash="2684540411" Timestamp="1677921905"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -39,7 +39,7 @@
 				<File Name="Master_SoundBank" Hash="738540099" Timestamp="1598611994"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3570529201" Timestamp="1677855921"/>
+				<File Name="" Hash="1622360322" Timestamp="1677921905"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>

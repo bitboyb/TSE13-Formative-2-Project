@@ -1,5 +1,14 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	311789396	AB_Impacts			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Impacts	
+	373135725	AB_Knight_Vocalisation			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Knight\AB_Knight_Vocalisation	
+	1650947108	AB_SFX			\Default Work Unit\Master Audio Bus\AB_SFX	
+	1692152468	AB_Knight_Movement			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Knight\AB_Knight_Movement	
+	1814981172	AB_Impacts_OnCollision			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Impacts\AB_Impacts_OnCollision	
+	2226227275	AB_Knight_Attack			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Knight\AB_Knight_Attack	
+	2652544870	AB_Impacts_Weapons			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Impacts\AB_Impacts_Weapons	
+	2654060516	AB_Knight			\Default Work Unit\Master Audio Bus\AB_SFX\AB_Knight	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4254849545	AB_UI			\Default Work Unit\Master Audio Bus\AB_UI	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

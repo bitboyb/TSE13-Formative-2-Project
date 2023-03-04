@@ -558,7 +558,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Normal" ID="{62242420-1B7E-4855-84E8-E1A2F530C57A}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
+									<ObjectRef Name="Special" ID="{4C03C013-B372-49F2-9D9B-3E410FE77A95}" WorkUnitID="{5798DAC8-18AF-4031-845D-760CA7533AC4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -972,7 +972,7 @@
 						<Action Name="" ID="{C6B94CDE-3D55-4E09-A9CE-7899C16FBE31}" ShortID="22406470">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_Knight_OnDeath" ID="{32CD6547-194D-471D-98EB-8AE929397858}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+									<ObjectRef Name="RC_UI_Health_OnDeath" ID="{32CD6547-194D-471D-98EB-8AE929397858}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1045,7 +1045,7 @@
 						<Action Name="" ID="{E455E136-E71D-4488-A534-EE50901E5D27}" ShortID="258080624">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_Knight_OnRevive" ID="{7FB3DB78-5BC6-4A8B-A901-CDB77DAA1C36}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
+									<ObjectRef Name="RC_UI_Health_OnRevive" ID="{7FB3DB78-5BC6-4A8B-A901-CDB77DAA1C36}" WorkUnitID="{F292C944-09B4-42AF-9DEB-A4855329F0D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

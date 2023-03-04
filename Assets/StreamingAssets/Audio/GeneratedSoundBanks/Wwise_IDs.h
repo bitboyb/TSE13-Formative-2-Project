@@ -108,6 +108,15 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AB_IMPACTS = 311789396U;
+        static const AkUniqueID AB_IMPACTS_ONCOLLISION = 1814981172U;
+        static const AkUniqueID AB_IMPACTS_WEAPONS = 2652544870U;
+        static const AkUniqueID AB_KNIGHT = 2654060516U;
+        static const AkUniqueID AB_KNIGHT_ATTACK = 2226227275U;
+        static const AkUniqueID AB_KNIGHT_MOVEMENT = 1692152468U;
+        static const AkUniqueID AB_KNIGHT_VOCALISATION = 373135725U;
+        static const AkUniqueID AB_SFX = 1650947108U;
+        static const AkUniqueID AB_UI = 4254849545U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

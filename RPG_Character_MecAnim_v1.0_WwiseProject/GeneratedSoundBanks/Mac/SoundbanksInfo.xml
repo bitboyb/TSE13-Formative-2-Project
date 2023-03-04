@@ -30,25 +30,25 @@
 				<Event Id="4285282925" Name="Play_Land" ObjectPath="\Events\Default Work Unit\Play_Land" GUID="{C75C9984-4AAE-455D-A265-F4D9786D481C}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="3055149681" Name="Play_Revive" ObjectPath="\Events\Default Work Unit\Play_Revive" GUID="{CEC1C326-7CFB-4A83-B5C9-48A787C901C9}" DurationType="OneShot" DurationMin="3.428571" DurationMax="3.428571"/>
 				<Event Id="2719919427" Name="Play_Roll" ObjectPath="\Events\Default Work Unit\Play_Roll" GUID="{16382481-96F0-4610-9C7C-7D979E439E53}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
-				<Event Id="1584859361" Name="Play_Sword_Attack1" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack1" GUID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="1584859362" Name="Play_Sword_Attack2" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack2" GUID="{DFCDDAAF-2F40-48ED-B366-F8E0CA37565F}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="1410769155" Name="Play_Sword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_RunAttack" GUID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="1584859361" Name="Play_Sword_Attack1" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack1" GUID="{F78C49DA-F3D3-45B2-B3D3-66190FB47B93}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="1584859362" Name="Play_Sword_Attack2" ObjectPath="\Events\Default Work Unit\Play_Sword_Attack2" GUID="{DFCDDAAF-2F40-48ED-B366-F8E0CA37565F}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="1410769155" Name="Play_Sword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_RunAttack" GUID="{AA186613-E28F-4172-A37E-F67A91EA48F8}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="648635755" Name="Play_Sword_Sheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Sheath" GUID="{6017AECB-1CA6-41DA-B278-5A0249AE8BBD}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
-				<Event Id="84470053" Name="Play_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_SpecialAttack" GUID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="84470053" Name="Play_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_Sword_SpecialAttack" GUID="{5007D47A-EE53-4DBD-A08C-3FFBBDC080BF}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="2036163030" Name="Play_Sword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_Sword_Unsheath" GUID="{BD24C0E2-72CF-47E3-BE55-7F980FFC9296}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
-				<Event Id="2010515388" Name="Play_TwoHandedAxe_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Attack1" GUID="{540A50BD-F11D-420A-820C-108E6D88795E}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="1134264338" Name="Play_TwoHandedAxe_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_RunAttack" GUID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="2010515388" Name="Play_TwoHandedAxe_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Attack1" GUID="{540A50BD-F11D-420A-820C-108E6D88795E}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="1134264338" Name="Play_TwoHandedAxe_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_RunAttack" GUID="{A6A5738D-60F1-4A78-ADC8-E89CF3CDC131}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="1958446052" Name="Play_TwoHandedAxe_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Sheath" GUID="{DFB84044-DAE5-4046-A56A-713F3ADF2A35}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
-				<Event Id="3221502996" Name="Play_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_SpecialAttack" GUID="{640C153B-09F9-4C48-BB8C-C258A406A00C}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="3221502996" Name="Play_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_SpecialAttack" GUID="{640C153B-09F9-4C48-BB8C-C258A406A00C}" DurationType="Mixed" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="303499673" Name="Play_TwoHandedAxe_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedAxe_Unsheath" GUID="{70D25C8E-74DC-4883-911D-D0C80A733B99}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
-				<Event Id="1206382859" Name="Play_TwoHandedSword_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack1" GUID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="1206382856" Name="Play_TwoHandedSword_Attack2" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack2" GUID="{F1E19395-870B-40ED-9303-0392E5F750AE}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="2511424613" Name="Play_TwoHandedSword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_RunAttack" GUID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="1206382859" Name="Play_TwoHandedSword_Attack1" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack1" GUID="{03ED48AF-E164-4D2E-B1CD-7307D693DEEC}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="1206382856" Name="Play_TwoHandedSword_Attack2" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Attack2" GUID="{F1E19395-870B-40ED-9303-0392E5F750AE}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="2511424613" Name="Play_TwoHandedSword_RunAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_RunAttack" GUID="{92C1151A-430D-455C-A4D7-BCA6C110C1D5}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="3306336597" Name="Play_TwoHandedSword_Sheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Sheath" GUID="{9CF382EF-A489-4FD6-BAA1-0AEA00F66D01}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.438359"/>
-				<Event Id="3612828199" Name="Play_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_SpecialAttack" GUID="{D85BA391-608A-4998-A814-7AC74879849D}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
+				<Event Id="3612828199" Name="Play_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_SpecialAttack" GUID="{D85BA391-608A-4998-A814-7AC74879849D}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
 				<Event Id="1826018124" Name="Play_TwoHandedSword_Unsheath" ObjectPath="\Events\Default Work Unit\Play_TwoHandedSword_Unsheath" GUID="{AB172011-090C-4424-B7F2-5E94B575746F}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.308027"/>
-				<Event Id="194921656" Name="Play_UnarmedAttack" ObjectPath="\Events\Default Work Unit\Play_UnarmedAttack" GUID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.334830"/>
-				<Event Id="157213476" Name="Play_WeaponImpact" ObjectPath="\Events\Default Work Unit\Play_WeaponImpact" GUID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}" DurationType="OneShot" DurationMin="0.480971" DurationMax="1.786979"/>
+				<Event Id="194921656" Name="Play_UnarmedAttack" ObjectPath="\Events\Default Work Unit\Play_UnarmedAttack" GUID="{394D21A1-BA0D-4F7B-BF15-6A8F7B49DB22}" DurationType="OneShot" DurationMin="1.195926" DurationMax="Infinite"/>
+				<Event Id="157213476" Name="Play_WeaponImpact" ObjectPath="\Events\Default Work Unit\Play_WeaponImpact" GUID="{1787EA83-43D8-4252-9DD9-B31FAD4B6CF6}" DurationType="OneShot" DurationMin="0.436803" DurationMax="1.786979"/>
 				<Event Id="2732819635" Name="Stop_Sword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_Sword_SpecialAttack" GUID="{0A219350-8CB7-45C8-B7A6-27D098BCB6AD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2020420858" Name="Stop_TwoHandedAxe_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedAxe_SpecialAttack" GUID="{14BDA114-AB80-48D5-A6B2-1FE879D9A3F2}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
 				<Event Id="1771533845" Name="Stop_TwoHandedSword_SpecialAttack" ObjectPath="\Events\Default Work Unit\Stop_TwoHandedSword_SpecialAttack" GUID="{E4FB0737-1553-4F4F-B4E5-FE6E1282F4A4}" DurationType="OneShot" DurationMin="1.195926" DurationMax="1.267771"/>
@@ -69,6 +69,10 @@
 				<File Id="56939043" Language="SFX">
 					<ShortName>Revive_01.wav</ShortName>
 					<Path>SFX\Revive_01_10C4C929.wem</Path>
+				</File>
+				<File Id="62138177" Language="SFX">
+					<ShortName>SwordSpecial_test_01.wav</ShortName>
+					<Path>SFX\SwordSpecial_test_01_7285F755.wem</Path>
 				</File>
 				<File Id="64324210" Language="SFX">
 					<ShortName>Death_02.wav</ShortName>
@@ -118,6 +122,10 @@
 					<ShortName>Hand-to-Hand Combat - Body Hits - Deep Punch 02.wav</ShortName>
 					<Path>SFX\Hand-to-Hand Combat - Body Hits - Deep Punch 02_10C4C929.wem</Path>
 				</File>
+				<File Id="412809658" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #6_10C4C929.wem</Path>
+				</File>
 				<File Id="442206835" Language="SFX">
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_03.wav</ShortName>
 					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_03_10C4C929.wem</Path>
@@ -126,6 +134,14 @@
 					<ShortName>SFX_Knight_OnRegularAttack_Axe_05.wav</ShortName>
 					<Path>SFX\SFX_Knight_OnRegularAttack_Axe_05_10C4C929.wem</Path>
 				</File>
+				<File Id="490465389" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #4_10C4C929.wem</Path>
+				</File>
+				<File Id="517479223" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #5_10C4C929.wem</Path>
+				</File>
 				<File Id="543577912" Language="SFX">
 					<ShortName>Revive_03.wav</ShortName>
 					<Path>SFX\Revive_03_10C4C929.wem</Path>
@@ -133,6 +149,18 @@
 				<File Id="566200977" Language="SFX">
 					<ShortName>Footsteps_Grass_Slow_01.wav</ShortName>
 					<Path>SFX\Footsteps_Grass_Slow_01_10C4C929.wem</Path>
+				</File>
+				<File Id="575308489" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #2_10C4C929.wem</Path>
+				</File>
+				<File Id="592620106" Language="SFX">
+					<ShortName>Weapon Impacts_sword-clash-1-6917.wav</ShortName>
+					<Path>SFX\Weapon Impacts_sword-clash-1-6917_10C4C929.wem</Path>
+				</File>
+				<File Id="618712806" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #7_10C4C929.wem</Path>
 				</File>
 				<File Id="626591909" Language="SFX">
 					<ShortName>IMPACT METAL Short Slam_03.wav</ShortName>
@@ -186,6 +214,10 @@
 					<ShortName>Footsteps_Grass_Fast_02.wav</ShortName>
 					<Path>SFX\Footsteps_Grass_Fast_02_10C4C929.wem</Path>
 				</File>
+				<File Id="810207798" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689_10C4C929.wem</Path>
+				</File>
 				<File Id="847812544" Language="SFX">
 					<ShortName>SFX_Knight_Armour_OnMove_02.wav</ShortName>
 					<Path>SFX\SFX_Knight_Armour_OnMove_02_10C4C929.wem</Path>
@@ -201,6 +233,10 @@
 				<File Id="869912512" Language="SFX">
 					<ShortName>Footsteps_Grass_Slow_02.wav</ShortName>
 					<Path>SFX\Footsteps_Grass_Slow_02_10C4C929.wem</Path>
+				</File>
+				<File Id="888458374" Language="SFX">
+					<ShortName>Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3.wav</ShortName>
+					<Path>SFX\Weapon Impacts_blade-on-wood-metal-clank-tink-63689 #3_10C4C929.wem</Path>
 				</File>
 				<File Id="890596365" Language="SFX">
 					<ShortName>SFX_Knight_OnAttack_Sword_06.wav</ShortName>

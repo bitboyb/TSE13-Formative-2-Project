@@ -9,6 +9,53 @@
 							<ObjectRef Name="System" ID="{720E2741-B732-4871-BAAA-65E493014333}" WorkUnitID="{49D5BF7A-6833-4362-A070-CFFFB54E3266}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AB_SFX" ID="{C93ADE91-5C1B-4592-8035-AE0AF8818F39}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AB_Knight" ID="{C7F5CAA2-FDA0-469C-9B08-BEDA3B28ECC9}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="AB_Knight_Vocalisation" ID="{D5F6DB2D-C0F3-43CB-BA5E-290CBA6DF61F}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="14"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="AB_Knight_Movement" ID="{CB96F42E-953B-43A8-8802-3A80C7CD852D}"/>
+										<Bus Name="AB_Knight_Attack" ID="{12FC2666-5537-4FCC-A10A-41068D269398}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="10"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="AB_Impacts" ID="{2D9F26B4-BC42-4338-B07C-2DCFA899E671}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="AB_Impacts_OnCollision" ID="{A5A1AA2D-6D0B-4B7A-BC84-B90C040BF925}"/>
+										<Bus Name="AB_Impacts_Weapons" ID="{2E646693-8B2B-47CA-9E9C-7AB6F4E60D05}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="AB_UI" ID="{BE0DDCA9-7D99-41A4-B699-1E0E7499C7F2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
